@@ -1,0 +1,13 @@
+{
+  "run_kind": "final",
+  "seeds": [3, 11, 29],
+  "algorithm_shots": 1000,
+  "grover_timing_repetitions": 50,
+  "annealing_times": [0.5, 2.0, 8.0],
+  "annealing_steps": 80,
+  "qml_epochs": 40,
+  "qml_learning_rate": 0.08,
+  "noise_probability": 0.02,
+  "noise_shots": 1000,
+  "kernel_lambdas": [0.001, 0.01, 0.1, 1.0]
+}

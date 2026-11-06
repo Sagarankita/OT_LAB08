@@ -1,0 +1,32 @@
+{
+  "experiment": "track_a_continuous",
+  "run_kind": "final",
+  "seeds": [11, 22, 33, 44, 55],
+  "repetitions": 1,
+  "warmup_repetitions": 0,
+  "input_size": 128,
+  "timeout_seconds": 180,
+  "units": {
+    "execution_seconds": "seconds",
+    "loss": "regularized mean squared error",
+    "objective_gap": "loss units",
+    "gradient_norm": "L2 norm"
+  },
+  "solver_settings": {
+    "features": 6,
+    "epochs": 80,
+    "regularization": 0.05,
+    "batch_size": 16,
+    "learning_rates": {
+      "gd": 0.1,
+      "sgd": 0.01,
+      "mini_batch": 0.05,
+      "momentum": 0.03,
+      "nag": 0.03,
+      "adagrad": 0.15,
+      "rmsprop": 0.01,
+      "adam": 0.03
+    }
+  }
+}
+

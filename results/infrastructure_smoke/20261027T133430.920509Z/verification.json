@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "final_run": true,
+    "five_or_more_seeds": true,
+    "raw_record_count": true,
+    "unique_seed_inputs": true,
+    "all_records_valid": true,
+    "both_methods_each_repetition": true,
+    "objective_agreement": true,
+    "setup_separate": true,
+    "units_recorded": true,
+    "solver_settings_recorded": true,
+    "config_hash_matches": true,
+    "plot_hash_matches": true,
+    "provenance_is_honest": true,
+    "scope_not_overclaimed": true
+  },
+  "passed": true,
+  "records": 50
+}

@@ -1,0 +1,9 @@
+{
+  "run_directory": "results/track_f_compiler/20261027T140035.600751Z",
+  "run_kind": "final",
+  "records": 270,
+  "evaluation_programs": 9,
+  "pipelines": 3,
+  "independent_verification_checks": 17,
+  "independent_verification_passed": true
+}

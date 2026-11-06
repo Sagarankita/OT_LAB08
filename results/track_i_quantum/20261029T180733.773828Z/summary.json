@@ -1,0 +1,74 @@
+{
+  "algorithm_success": {
+    "annealing_slow_success": 0.6101135793637402,
+    "bernstein_vazirani": true,
+    "deutsch_jozsa": true,
+    "grover_probability": 0.945312499999996,
+    "qft_fidelity": 1.0,
+    "qpe_success_probability": 0.9999999999999996,
+    "shor_factors": [
+      3,
+      5
+    ]
+  },
+  "environment": {
+    "execution": "local ideal/noisy simulators only; no real quantum hardware",
+    "pennylane": "0.45.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "torch": "2.14.1"
+  },
+  "grover_comparison": {
+    "classical_expected_queries_uniform_target": 4.5,
+    "classical_queries_for_fixed_target": 6,
+    "classical_wall_seconds": {
+      "mean": 6.393347575794905e-07,
+      "stdev": 2.0987384888276222e-07
+    },
+    "classical_worst_case_queries": 8,
+    "iterations_and_oracle_queries": 2,
+    "quantum_simulator_wall_seconds": {
+      "mean": 0.0012013476674231545,
+      "stdev": 0.00017219634067160294
+    },
+    "success_probability": 0.945312499999996
+  },
+  "qml_comparison": {
+    "classical_mlp": {
+      "circuit_executions": 0,
+      "mean_runtime_seconds": 0.030773749997024424,
+      "mean_test_accuracy": 0.25,
+      "mean_train_accuracy": 0.625,
+      "mean_validation_accuracy": 0.375,
+      "parameter_count": 13
+    },
+    "classical_rbf_kernel": {
+      "circuit_executions": 0,
+      "runtime_seconds": 0.00026324999998905696,
+      "selected_gamma": 0.1,
+      "selected_regularization": 0.01,
+      "test_accuracy": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0
+    },
+    "noisy_qnn_mean_test_accuracy": 0.5,
+    "quantum_kernel": {
+      "circuit_executions": 684,
+      "runtime_seconds": 0.4364900830005354,
+      "selected_regularization": 0.01,
+      "test_accuracy": 1.0,
+      "train_accuracy": 1.0,
+      "train_kernel_min_eigenvalue": -8.724989031687466e-16,
+      "validation_accuracy": 1.0
+    },
+    "variational_quantum_classifier": {
+      "mean_circuit_executions": 976,
+      "mean_runtime_seconds": 0.5666297499992652,
+      "mean_test_accuracy": 0.5,
+      "mean_train_accuracy": 0.5416666666666666,
+      "mean_validation_accuracy": 0.5,
+      "parameter_count": 6
+    }
+  },
+  "run_kind": "debug"
+}

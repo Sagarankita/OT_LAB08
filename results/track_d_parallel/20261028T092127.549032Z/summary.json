@@ -1,0 +1,415 @@
+{
+  "amdahl_fits": {
+    "dynamic": {
+      "1": {
+        "fitted_serial_fraction": null,
+        "model_valid_fraction": false,
+        "observed_speedup": 0.7611523022488285
+      },
+      "2": {
+        "fitted_serial_fraction": 0.6581205668284864,
+        "model_valid_fraction": true,
+        "observed_speedup": 1.2061849059778758
+      },
+      "4": {
+        "fitted_serial_fraction": 0.5185787046408552,
+        "model_valid_fraction": true,
+        "observed_speedup": 1.5651068113838897
+      }
+    },
+    "static": {
+      "1": {
+        "fitted_serial_fraction": null,
+        "model_valid_fraction": false,
+        "observed_speedup": 0.7604879446714964
+      },
+      "2": {
+        "fitted_serial_fraction": 0.6563371914582579,
+        "model_valid_fraction": true,
+        "observed_speedup": 1.2074836031660785
+      },
+      "4": {
+        "fitted_serial_fraction": 0.5190651993557188,
+        "model_valid_fraction": true,
+        "observed_speedup": 1.564213548241433
+      }
+    },
+    "work_stealing": {
+      "1": {
+        "fitted_serial_fraction": null,
+        "model_valid_fraction": false,
+        "observed_speedup": 0.7605496382417234
+      },
+      "2": {
+        "fitted_serial_fraction": 0.6785223409183407,
+        "model_valid_fraction": true,
+        "observed_speedup": 1.1915242062883564
+      },
+      "4": {
+        "fitted_serial_fraction": 0.5445044884459037,
+        "model_valid_fraction": true,
+        "observed_speedup": 1.5188834432206162
+      }
+    }
+  },
+  "correctness": {
+    "all_fixed_outputs_equal": true,
+    "all_scaled_outputs_equal": true,
+    "data_outputs_equal": true,
+    "fixed_output_sha256": "eec44b80dd7eeeae974bdd5919c6152a7828519e7c5467d0bc00bef2fabbd568",
+    "model_outputs_allclose": true,
+    "pipeline_outputs_equal": true
+  },
+  "environment": {
+    "blas_threads_requested": 1,
+    "logical_cpus": 10,
+    "multiprocessing_start_method": "spawn",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.15"
+  },
+  "fixed_scheduling": {
+    "dynamic": {
+      "1": {
+        "efficiency": 0.7611523022488285,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.23464879166658648,
+        "mean_seconds": 1.0770646109999689,
+        "mean_steals": 0,
+        "samples_seconds": [
+          1.102695957999913,
+          1.060904124999979,
+          1.0675937500000146
+        ],
+        "speedup": 0.7611523022488285,
+        "stdev_seconds": 0.022447989496476767
+      },
+      "2": {
+        "efficiency": 0.6030924529889379,
+        "mean_remote_tasks": 15.333333333333334,
+        "mean_residual_overhead_seconds": 0.25169843100002254,
+        "mean_seconds": 0.6796720836667495,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.6774267920000057,
+          0.6835815839999668,
+          0.6780078750002758
+        ],
+        "speedup": 1.2061849059778758,
+        "stdev_seconds": 0.00339816994938024
+      },
+      "4": {
+        "efficiency": 0.39127670284597243,
+        "mean_remote_tasks": 25.666666666666668,
+        "mean_residual_overhead_seconds": 0.27436615299999784,
+        "mean_seconds": 0.5238046389999909,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.5240531660001579,
+          0.5250670840000566,
+          0.522293666999758
+        ],
+        "speedup": 1.5651068113838897,
+        "stdev_seconds": 0.0014033120525191213
+      }
+    },
+    "serial": {
+      "1": {
+        "efficiency": 1.0,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.0,
+        "mean_seconds": 0.8198102083333652,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.8210447500000555,
+          0.8201710829998774,
+          0.8182147920001626
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 0.0014490819383275936
+      }
+    },
+    "static": {
+      "1": {
+        "efficiency": 0.7604879446714964,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.22999651400020107,
+        "mean_seconds": 1.0780055280001761,
+        "mean_steals": 0,
+        "samples_seconds": [
+          1.0835526670002764,
+          1.0705748750001476,
+          1.0798890420001044
+        ],
+        "speedup": 0.7604879446714964,
+        "stdev_seconds": 0.006690776490109071
+      },
+      "2": {
+        "efficiency": 0.6037418015830393,
+        "mean_remote_tasks": 16,
+        "mean_residual_overhead_seconds": 0.2500308606665082,
+        "mean_seconds": 0.6789410689998476,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.6825274579996403,
+          0.6859728330000507,
+          0.6683229159998518
+        ],
+        "speedup": 1.2074836031660785,
+        "stdev_seconds": 0.009355561558338074
+      },
+      "4": {
+        "efficiency": 0.39105338706035825,
+        "mean_remote_tasks": 24,
+        "mean_residual_overhead_seconds": 0.2866039446666946,
+        "mean_seconds": 0.5241037640001499,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.5208231250003337,
+          0.5237158750001072,
+          0.5277722920000087
+        ],
+        "speedup": 1.564213548241433,
+        "stdev_seconds": 0.0034907841389305127
+      }
+    },
+    "work_stealing": {
+      "1": {
+        "efficiency": 0.7605496382417234,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.24300875000002028,
+        "mean_seconds": 1.0779180833333157,
+        "mean_steals": 0,
+        "samples_seconds": [
+          1.073870917000022,
+          1.0811727909999718,
+          1.0787105419999534
+        ],
+        "speedup": 0.7605496382417234,
+        "stdev_seconds": 0.003714880083062227
+      },
+      "2": {
+        "efficiency": 0.5957621031441782,
+        "mean_remote_tasks": 3.3333333333333335,
+        "mean_residual_overhead_seconds": 0.2587864030001583,
+        "mean_seconds": 0.6880348750002364,
+        "mean_steals": 3.3333333333333335,
+        "samples_seconds": [
+          0.686866375000136,
+          0.6922372920002999,
+          0.6850009580002734
+        ],
+        "speedup": 1.1915242062883564,
+        "stdev_seconds": 0.0037570169852771565
+      },
+      "4": {
+        "efficiency": 0.37972086080515405,
+        "mean_remote_tasks": 9,
+        "mean_residual_overhead_seconds": 0.2763391390003562,
+        "mean_seconds": 0.5397453056668079,
+        "mean_steals": 9,
+        "samples_seconds": [
+          0.5442804170002091,
+          0.541612625000198,
+          0.5333428750000166
+        ],
+        "speedup": 1.5188834432206162,
+        "stdev_seconds": 0.005702860455169224
+      }
+    }
+  },
+  "parallel_paradigms": {
+    "data": {
+      "1": {
+        "communicated_bytes": 0,
+        "efficiency": 1.0,
+        "mean_seconds": 0.016665000333432545,
+        "samples_seconds": [
+          0.016372208000120736,
+          0.016659083999911672,
+          0.016963709000265226
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 0.00029579487917259583
+      },
+      "2": {
+        "communicated_bytes": 2400000,
+        "efficiency": 0.0362120930523026,
+        "mean_seconds": 0.23010269400007624,
+        "samples_seconds": [
+          0.22987283300017225,
+          0.23005716599982406,
+          0.23037808300023244
+        ],
+        "speedup": 0.0724241861046052,
+        "stdev_seconds": 0.00025568337792165316
+      },
+      "4": {
+        "communicated_bytes": 2400000,
+        "efficiency": 0.016551188819992336,
+        "mean_seconds": 0.2517190836664061,
+        "samples_seconds": [
+          0.24651591699966957,
+          0.2551908749996983,
+          0.2534504589998505
+        ],
+        "speedup": 0.06620475527996934,
+        "stdev_seconds": 0.00458933213926714
+      }
+    },
+    "model": {
+      "1": {
+        "communicated_bytes": 0,
+        "efficiency": 1.0,
+        "mean_seconds": 1.34166665096321e-05,
+        "samples_seconds": [
+          1.4708999970025616e-05,
+          1.2957999842910795e-05,
+          1.2582999715959886e-05
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 1.1347909954889538e-06
+      },
+      "2": {
+        "communicated_bytes": 3121024,
+        "efficiency": 3.0425786756447657e-05,
+        "mean_seconds": 0.2204818336667813,
+        "samples_seconds": [
+          0.2204645840001831,
+          0.22096241700000974,
+          0.2200185000001511
+        ],
+        "speedup": 6.0851573512895314e-05,
+        "stdev_seconds": 0.0004721948632755774
+      },
+      "4": {
+        "communicated_bytes": 3169024,
+        "efficiency": 1.3986835183625927e-05,
+        "mean_seconds": 0.239808833333124,
+        "samples_seconds": [
+          0.2395555839998451,
+          0.24009804099978282,
+          0.2397728749997441
+        ],
+        "speedup": 5.594734073450371e-05,
+        "stdev_seconds": 0.0002730103487048649
+      }
+    },
+    "pipeline": {
+      "parallel": {
+        "communicated_bytes": 2304000,
+        "mean_seconds": 0.2776914443332619,
+        "samples_seconds": [
+          0.2785209579997172,
+          0.27662245900000926,
+          0.27793091600005937
+        ],
+        "speedup": 0.03370252435841886,
+        "stdev_seconds": 0.0009716401712424602
+      },
+      "serial": {
+        "communicated_bytes": 0,
+        "mean_seconds": 0.009358902666766275,
+        "samples_seconds": [
+          0.009397457999966718,
+          0.00940579100006289,
+          0.009273459000269213
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 7.411359410389199e-05
+      }
+    }
+  },
+  "run_kind": "final",
+  "scaled_work_stealing": {
+    "1": {
+      "gustafson_predicted_scaled_speedup": 1.0,
+      "gustafson_serial_fraction_source": "identity at one worker",
+      "scaled_efficiency": 0.4403933384108649,
+      "scaled_speedup": 0.4403933384108649,
+      "serial": {
+        "mean_seconds": 0.196825110999877,
+        "samples_seconds": [
+          0.196150833000047,
+          0.19649237499970695,
+          0.19783212499987712
+        ],
+        "stdev_seconds": 0.0008886622707925023
+      },
+      "tasks": 8,
+      "work_stealing": {
+        "mean_seconds": 0.44693026400015395,
+        "samples_seconds": [
+          0.44487216700008503,
+          0.44724054100015564,
+          0.44867808400022113
+        ],
+        "stdev_seconds": 0.0019218363394235209
+      }
+    },
+    "2": {
+      "gustafson_predicted_scaled_speedup": 1.3214776590816593,
+      "gustafson_serial_fraction_source": "fixed-size Amdahl fit; null when model assumptions fail",
+      "scaled_efficiency": 0.4241405835357858,
+      "scaled_speedup": 0.8482811670715716,
+      "serial": {
+        "mean_seconds": 0.39903512499980326,
+        "samples_seconds": [
+          0.4012597910000295,
+          0.3969752499997412,
+          0.3988703339996391
+        ],
+        "stdev_seconds": 0.0021470188520572417
+      },
+      "tasks": 16,
+      "work_stealing": {
+        "mean_seconds": 0.4704043193335868,
+        "samples_seconds": [
+          0.4713423330003934,
+          0.47198004200026844,
+          0.46789058300009856
+        ],
+        "stdev_seconds": 0.0022001865734193075
+      }
+    },
+    "4": {
+      "gustafson_predicted_scaled_speedup": 2.3664865346622888,
+      "gustafson_serial_fraction_source": "fixed-size Amdahl fit; null when model assumptions fail",
+      "scaled_efficiency": 0.3854523472253287,
+      "scaled_speedup": 1.5418093889013147,
+      "serial": {
+        "mean_seconds": 0.8275269586667188,
+        "samples_seconds": [
+          0.8278157919999103,
+          0.8273832500003664,
+          0.8273818339998797
+        ],
+        "stdev_seconds": 0.00025013800598113926
+      },
+      "tasks": 32,
+      "work_stealing": {
+        "mean_seconds": 0.5367245553332699,
+        "samples_seconds": [
+          0.5360661249997065,
+          0.5372280410001622,
+          0.5368794999999409
+        ],
+        "stdev_seconds": 0.0005962533734295133
+      }
+    }
+  },
+  "submodular": {
+    "axioms": {
+      "diminishing_comparisons": 5103,
+      "diminishing_returns": true,
+      "monotone": true,
+      "nonnegative": true,
+      "normalized": true,
+      "subsets_checked": 128
+    },
+    "guarantee_conditions": "normalized, nonnegative, monotone submodular objective; cardinality budget; exact marginal-gain greedy",
+    "guarantee_threshold": 0.6321205588285577,
+    "instances": 10,
+    "mean_greedy_ratio": 0.986524193548387,
+    "minimum_greedy_ratio": 0.9375
+  }
+}

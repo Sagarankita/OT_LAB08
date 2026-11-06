@@ -1,0 +1,12 @@
+{
+  "run_directory": "results/track_a_continuous/20261027T134547.158590Z",
+  "run_kind": "final",
+  "ridge_records": 40,
+  "noisy_objective_records": 10,
+  "stochastic_seeds": 5,
+  "epochs": 80,
+  "example_gradient_evaluations_per_optimizer_run": 10240,
+  "independent_verification_checks": 28,
+  "independent_verification_passed": true
+}
+

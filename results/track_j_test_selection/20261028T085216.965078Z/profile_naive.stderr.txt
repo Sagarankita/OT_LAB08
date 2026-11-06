@@ -1,0 +1,4 @@
+ERROR: file or directory not found: vendor/track_j/more_itertools-10.7.0/tests/test_more.py::AdjacentTests::test_call_once
+
+/Users/ankitasagar/Desktop/OT LAB8/.venv/lib/python3.11/site-packages/coverage/control.py:967: CoverageWarning: No data was collected. (no-data-collected); see https://coverage.readthedocs.io/en/7.17.0/messages.html#warning-no-data-collected
+  self._warn("No data was collected.", slug="no-data-collected")

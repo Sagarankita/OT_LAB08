@@ -1,0 +1,23 @@
+{
+  "experiment": "track_b_discrete",
+  "run_kind": "debug",
+  "seeds": [101],
+  "repetitions": 1,
+  "warmup_repetitions": 0,
+  "input_size": 12,
+  "timeout_seconds": 60,
+  "units": {
+    "execution_seconds": "seconds",
+    "objective_value": "integer item value",
+    "total_weight": "integer weight units",
+    "optimality_gap_percent": "percent"
+  },
+  "solver_settings": {
+    "capacity_ratio": 0.35,
+    "methods": ["greedy", "dynamic_programming", "ilp", "branch_and_bound"],
+    "oracle": "exhaustive_enumeration",
+    "value_range": [1, 60],
+    "weight_range": [1, 30]
+  }
+}
+

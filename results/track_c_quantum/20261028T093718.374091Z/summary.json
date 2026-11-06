@@ -1,0 +1,111 @@
+{
+  "environment": {
+    "execution": "local ideal and noisy simulators only; no real quantum hardware",
+    "pennylane": "0.45.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.15"
+  },
+  "gradient_variance": [
+    {
+      "circuit_executions": 6,
+      "depth": 1,
+      "gradient_mean": -0.3238962390953087,
+      "gradient_variance": 1.0489823412080137,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 2,
+      "seeds": 3
+    },
+    {
+      "circuit_executions": 6,
+      "depth": 2,
+      "gradient_mean": 0.17774762326591867,
+      "gradient_variance": 0.0978239801324626,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 2,
+      "seeds": 3
+    },
+    {
+      "circuit_executions": 6,
+      "depth": 1,
+      "gradient_mean": -3.700743415417188e-17,
+      "gradient_variance": 4.108650548026103e-33,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 3,
+      "seeds": 3
+    },
+    {
+      "circuit_executions": 6,
+      "depth": 2,
+      "gradient_mean": 0.07240510391934937,
+      "gradient_variance": 0.012167376656965245,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 3,
+      "seeds": 3
+    }
+  ],
+  "qaoa": {
+    "best_analytic_energy": 40.725668109987566,
+    "best_seed": 3,
+    "noise_probability": 0.02,
+    "noisy_mean_energy": 35.800000000000004,
+    "noisy_mean_feasible_rate": 0.4,
+    "noisy_optimum_seen_all_seeds": true,
+    "shot_summary": [
+      {
+        "energy_stdev": 0.0,
+        "mean_energy": 36.59,
+        "mean_feasible_rate": 0.4,
+        "optimum_seen_all_seeds": true,
+        "shots": 100
+      }
+    ]
+  },
+  "qnn": {
+    "mean_circuit_executions": 456,
+    "mean_test_accuracy": 0.5,
+    "mean_train_accuracy": 0.375,
+    "parameter_count": 4
+  },
+  "qubo": {
+    "classical_optimum_bits": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "classical_optimum_energy": -18.0,
+    "maximum_basis_energy_error": 0.0,
+    "states_checked": 32
+  },
+  "run_kind": "debug",
+  "vqe": {
+    "exact_ground_energy": -1.5628499608087782,
+    "optimizers": [
+      {
+        "circuit_executions": 92,
+        "energy": -0.6907454953398404,
+        "error_to_exact": 0.8721044654689378,
+        "iterations": 5,
+        "method": "parameter_shift_adam"
+      },
+      {
+        "circuit_executions": 42,
+        "energy": -0.5836052232467754,
+        "error_to_exact": 0.9792447375620028,
+        "expected_two_point_calls": 21,
+        "iterations": 10,
+        "method": "spsa"
+      },
+      {
+        "circuit_executions": 117,
+        "energy": -0.6630388984987112,
+        "error_to_exact": 0.899811062310067,
+        "iterations": 5,
+        "method": "quantum_natural_gradient",
+        "metric": "block-diagonal Fubini-Study metric with 1e-3 diagonal regularization"
+      }
+    ],
+    "parameter_shift_absolute_error": 3.6158520622109336e-11
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "environment": {
+    "execution": "single-machine local simulation; not geographically distributed hardware",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "torch": "2.14.1",
+    "torch_threads": 1
+  },
+  "fedavg": {
+    "iid": {
+      "same_communication_rounds": [
+        {
+          "accuracy": {
+            "mean": 0.9088888888888889,
+            "stdev": 0.09731582795398892
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.9088888888888889,
+            "stdev": 0.09731582795398892
+          },
+          "centralized_steps": 10,
+          "examples_processed": 6000,
+          "local_steps": 1,
+          "rounds": 10,
+          "runtime_seconds": {
+            "mean": 0.0006479860001794199,
+            "stdev": 1.3930128989908355e-05
+          },
+          "transmitted_parameter_bytes": 4480
+        },
+        {
+          "accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.0921552635099732
+          },
+          "accuracy_gap": {
+            "mean": 0.0011111111111110998,
+            "stdev": 0.001924500897298733
+          },
+          "centralized_accuracy": {
+            "mean": 0.9011111111111111,
+            "stdev": 0.09100264546419234
+          },
+          "centralized_steps": 50,
+          "examples_processed": 30000,
+          "local_steps": 5,
+          "rounds": 10,
+          "runtime_seconds": {
+            "mean": 0.0027685276666791956,
+            "stdev": 3.390834083990096e-05
+          },
+          "transmitted_parameter_bytes": 4480
+        },
+        {
+          "accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.0890900501573382
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.0890900501573382
+          },
+          "centralized_steps": 100,
+          "examples_processed": 60000,
+          "local_steps": 10,
+          "rounds": 10,
+          "runtime_seconds": {
+            "mean": 0.0054149860000810195,
+            "stdev": 7.701388813626012e-05
+          },
+          "transmitted_parameter_bytes": 4480
+        }
+      ],
+      "same_compute": [
+        {
+          "accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "centralized_steps": 30,
+          "examples_processed": 18000,
+          "local_steps": 1,
+          "rounds": 30,
+          "runtime_seconds": {
+            "mean": 0.001987041666628405,
+            "stdev": 6.493304989063331e-05
+          },
+          "transmitted_parameter_bytes": 13440
+        },
+        {
+          "accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "centralized_steps": 30,
+          "examples_processed": 18000,
+          "local_steps": 5,
+          "rounds": 6,
+          "runtime_seconds": {
+            "mean": 0.0016390836667596886,
+            "stdev": 8.987781910088992e-06
+          },
+          "transmitted_parameter_bytes": 2688
+        },
+        {
+          "accuracy": {
+            "mean": 0.9033333333333333,
+            "stdev": 0.09597453365925311
+          },
+          "accuracy_gap": {
+            "mean": 0.0011111111111110998,
+            "stdev": 0.001924500897298733
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "centralized_steps": 30,
+          "examples_processed": 18000,
+          "local_steps": 10,
+          "rounds": 3,
+          "runtime_seconds": {
+            "mean": 0.0016075416666960034,
+            "stdev": 3.249692398483882e-06
+          },
+          "transmitted_parameter_bytes": 1344
+        }
+      ]
+    },
+    "non_iid": {
+      "same_communication_rounds": [
+        {
+          "accuracy": {
+            "mean": 0.9088888888888889,
+            "stdev": 0.09731582795398892
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.9088888888888889,
+            "stdev": 0.09731582795398892
+          },
+          "centralized_steps": 10,
+          "examples_processed": 6000,
+          "local_steps": 1,
+          "rounds": 10,
+          "runtime_seconds": {
+            "mean": 0.0006493189998764137,
+            "stdev": 9.444706206405198e-06
+          },
+          "transmitted_parameter_bytes": 4480
+        },
+        {
+          "accuracy": {
+            "mean": 0.9055555555555556,
+            "stdev": 0.09523849206266538
+          },
+          "accuracy_gap": {
+            "mean": 0.004444444444444436,
+            "stdev": 0.005091750772173164
+          },
+          "centralized_accuracy": {
+            "mean": 0.9011111111111111,
+            "stdev": 0.09100264546419234
+          },
+          "centralized_steps": 50,
+          "examples_processed": 30000,
+          "local_steps": 5,
+          "rounds": 10,
+          "runtime_seconds": {
+            "mean": 0.0027185976665956937,
+            "stdev": 1.3522428083412579e-05
+          },
+          "transmitted_parameter_bytes": 4480
+        },
+        {
+          "accuracy": {
+            "mean": 0.9077777777777778,
+            "stdev": 0.09142898478742538
+          },
+          "accuracy_gap": {
+            "mean": 0.005555555555555536,
+            "stdev": 0.00384900179459753
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.0890900501573382
+          },
+          "centralized_steps": 100,
+          "examples_processed": 60000,
+          "local_steps": 10,
+          "rounds": 10,
+          "runtime_seconds": {
+            "mean": 0.00537233333337402,
+            "stdev": 0.00012247482732776797
+          },
+          "transmitted_parameter_bytes": 4480
+        }
+      ],
+      "same_compute": [
+        {
+          "accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "centralized_steps": 30,
+          "examples_processed": 18000,
+          "local_steps": 1,
+          "rounds": 30,
+          "runtime_seconds": {
+            "mean": 0.0019405830000020312,
+            "stdev": 3.442655236566242e-05
+          },
+          "transmitted_parameter_bytes": 13440
+        },
+        {
+          "accuracy": {
+            "mean": 0.9066666666666666,
+            "stdev": 0.09905105305402416
+          },
+          "accuracy_gap": {
+            "mean": 0.004444444444444436,
+            "stdev": 0.005091750772173164
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "centralized_steps": 30,
+          "examples_processed": 18000,
+          "local_steps": 5,
+          "rounds": 6,
+          "runtime_seconds": {
+            "mean": 0.001636611333348507,
+            "stdev": 1.0074364653789774e-05
+          },
+          "transmitted_parameter_bytes": 2688
+        },
+        {
+          "accuracy": {
+            "mean": 0.9055555555555556,
+            "stdev": 0.09754391223861597
+          },
+          "accuracy_gap": {
+            "mean": 0.003333333333333336,
+            "stdev": 0.003333333333333355
+          },
+          "centralized_accuracy": {
+            "mean": 0.9022222222222223,
+            "stdev": 0.09482928130378608
+          },
+          "centralized_steps": 30,
+          "examples_processed": 18000,
+          "local_steps": 10,
+          "rounds": 3,
+          "runtime_seconds": {
+            "mean": 0.0015989030001340627,
+            "stdev": 1.203919485238939e-05
+          },
+          "transmitted_parameter_bytes": 1344
+        }
+      ]
+    }
+  },
+  "fedavg_accounting": {
+    "bytes_convention": "64-bit parameters, client download plus upload each round",
+    "client_sizes": [
+      90,
+      120,
+      150,
+      240
+    ],
+    "clients": 4,
+    "parameter_count": 7,
+    "weighted_aggregation_check": {
+      "different_due_to_unequal_clients": true,
+      "unweighted": [
+        1.5,
+        1.5
+      ],
+      "weighted": [
+        1.9000000000000001,
+        1.9000000000000001
+      ]
+    }
+  },
+  "multitask": {
+    "equal": {
+      "accuracy_one": {
+        "mean": 0.8586666782697042,
+        "stdev": 0.002309405756893551
+      },
+      "accuracy_two": {
+        "mean": 0.8599999745686849,
+        "stdev": 0.01743559692279958
+      },
+      "final_weight_one": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "final_weight_two": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "loss_one": {
+        "mean": 0.3001113831996918,
+        "stdev": 0.006416713484915177
+      },
+      "loss_two": {
+        "mean": 0.33993956446647644,
+        "stdev": 0.016758831642988876
+      },
+      "runtime_seconds": {
+        "mean": 0.0323592083332187,
+        "stdev": 0.004324703640604442
+      }
+    },
+    "gradnorm": {
+      "accuracy_one": {
+        "mean": 0.862666666507721,
+        "stdev": 0.006110087295523096
+      },
+      "accuracy_two": {
+        "mean": 0.8560000061988831,
+        "stdev": 0.017435576411450236
+      },
+      "final_weight_one": {
+        "mean": 0.8827507893244425,
+        "stdev": 0.0049610978512124706
+      },
+      "final_weight_two": {
+        "mean": 1.1172492106755574,
+        "stdev": 0.0049610978512124706
+      },
+      "loss_one": {
+        "mean": 0.30104198058446247,
+        "stdev": 0.003404600636029257
+      },
+      "loss_two": {
+        "mean": 0.3448652724424998,
+        "stdev": 0.012707984201730478
+      },
+      "runtime_seconds": {
+        "mean": 0.03536940299985266,
+        "stdev": 0.0004116463047103664
+      }
+    },
+    "mgda": {
+      "accuracy_one": {
+        "mean": 0.8426666657129923,
+        "stdev": 0.03885012712658509
+      },
+      "accuracy_two": {
+        "mean": 0.828000009059906,
+        "stdev": 0.022271043705703687
+      },
+      "final_weight_one": {
+        "mean": 0.31061261395613354,
+        "stdev": 0.379080286790957
+      },
+      "final_weight_two": {
+        "mean": 1.689387361208598,
+        "stdev": 0.37908031780215024
+      },
+      "loss_one": {
+        "mean": 0.32251474261283875,
+        "stdev": 0.07082237031479825
+      },
+      "loss_two": {
+        "mean": 0.39063746730486554,
+        "stdev": 0.04203280771787242
+      },
+      "runtime_seconds": {
+        "mean": 0.030738888666595205,
+        "stdev": 0.00017662169161813176
+      }
+    }
+  },
+  "multitask_correctness": {
+    "gradnorm": {
+      "all_weight_sums_two": true,
+      "weights_positive": true,
+      "weights_received_nonzero_gradients": true
+    },
+    "mgda_known_case": {
+      "expected_opposing": 0.5,
+      "expected_orthogonal_unequal": 0.8,
+      "opposing": 0.5,
+      "orthogonal_unequal": 0.8
+    },
+    "same_data_split": true,
+    "same_epochs": 120,
+    "same_initialization_per_seed": true
+  },
+  "run_kind": "final"
+}

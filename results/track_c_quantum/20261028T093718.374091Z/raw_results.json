@@ -1,0 +1,1499 @@
+{
+  "gradient_variance": {
+    "interpretation": "small random-circuit trend only; not proof of a general barren-plateau law",
+    "records": [
+      {
+        "circuit_executions": 6,
+        "depth": 1,
+        "gradient_mean": -0.3238962390953087,
+        "gradient_variance": 1.0489823412080137,
+        "gradients": [
+          -0.9682626487373922,
+          0.8571095835006387,
+          -0.8605356520491725
+        ],
+        "observable": "global tensor product of Pauli-Z",
+        "qubits": 2,
+        "seeds": 3
+      },
+      {
+        "circuit_executions": 6,
+        "depth": 2,
+        "gradient_mean": 0.17774762326591867,
+        "gradient_variance": 0.0978239801324626,
+        "gradients": [
+          0.5388647735391421,
+          -0.007258756539541389,
+          0.001636852798155286
+        ],
+        "observable": "global tensor product of Pauli-Z",
+        "qubits": 2,
+        "seeds": 3
+      },
+      {
+        "circuit_executions": 6,
+        "depth": 1,
+        "gradient_mean": -3.700743415417188e-17,
+        "gradient_variance": 4.108650548026103e-33,
+        "gradients": [
+          -1.1102230246251565e-16,
+          0.0,
+          0.0
+        ],
+        "observable": "global tensor product of Pauli-Z",
+        "qubits": 3,
+        "seeds": 3
+      },
+      {
+        "circuit_executions": 6,
+        "depth": 2,
+        "gradient_mean": 0.07240510391934937,
+        "gradient_variance": 0.012167376656965245,
+        "gradients": [
+          0.1997194321500128,
+          0.012014899758840625,
+          0.005480979849194684
+        ],
+        "observable": "global tensor product of Pauli-Z",
+        "qubits": 3,
+        "seeds": 3
+      }
+    ]
+  },
+  "hamiltonian_check": {
+    "maximum_error": 0.0,
+    "passed": true,
+    "states": [
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hamiltonian": 160.0,
+        "ising": 160.0,
+        "qubo": 160.0
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "hamiltonian": 36.0,
+        "ising": 36.0,
+        "qubo": 36.0
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "hamiltonian": 35.0,
+        "ising": 35.0,
+        "qubo": 35.0
+      },
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "hamiltonian": -9.0,
+        "ising": -9.0,
+        "qubo": -9.0
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "hamiltonian": 34.0,
+        "ising": 34.0,
+        "qubo": 34.0
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "hamiltonian": -11.0,
+        "ising": -11.0,
+        "qubo": -11.0
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "hamiltonian": -12.0,
+        "ising": -12.0,
+        "qubo": -12.0
+      },
+      {
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "hamiltonian": 23.0,
+        "ising": 23.0,
+        "qubo": 23.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hamiltonian": 33.0,
+        "ising": 33.0,
+        "qubo": 33.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "hamiltonian": -11.0,
+        "ising": -11.0,
+        "qubo": -11.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "hamiltonian": -13.0,
+        "ising": -13.0,
+        "qubo": -13.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "hamiltonian": 23.0,
+        "ising": 23.0,
+        "qubo": 23.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "hamiltonian": -15.0,
+        "ising": -15.0,
+        "qubo": -15.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "hamiltonian": 20.0,
+        "ising": 20.0,
+        "qubo": 20.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "hamiltonian": 18.0,
+        "ising": 18.0,
+        "qubo": 18.0
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "hamiltonian": 133.0,
+        "ising": 133.0,
+        "qubo": 133.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "hamiltonian": 32.0,
+        "ising": 32.0,
+        "qubo": 32.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "hamiltonian": -12.0,
+        "ising": -12.0,
+        "qubo": -12.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "hamiltonian": -13.0,
+        "ising": -13.0,
+        "qubo": -13.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "hamiltonian": 23.0,
+        "ising": 23.0,
+        "qubo": 23.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "hamiltonian": -15.0,
+        "ising": -15.0,
+        "qubo": -15.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "hamiltonian": 20.0,
+        "ising": 20.0,
+        "qubo": 20.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "hamiltonian": 19.0,
+        "ising": 19.0,
+        "qubo": 19.0
+      },
+      {
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "hamiltonian": 134.0,
+        "ising": 134.0,
+        "qubo": 134.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "hamiltonian": -18.0,
+        "ising": -18.0,
+        "qubo": -18.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "hamiltonian": 18.0,
+        "ising": 18.0,
+        "qubo": 18.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "hamiltonian": 16.0,
+        "ising": 16.0,
+        "qubo": 16.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "hamiltonian": 132.0,
+        "ising": 132.0,
+        "qubo": 132.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "hamiltonian": 13.0,
+        "ising": 13.0,
+        "qubo": 13.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "hamiltonian": 128.0,
+        "ising": 128.0,
+        "qubo": 128.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "hamiltonian": 126.0,
+        "ising": 126.0,
+        "qubo": 126.0
+      },
+      {
+        "bits": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "hamiltonian": 321.0,
+        "ising": 321.0,
+        "qubo": 321.0
+      }
+    ]
+  },
+  "qaoa": {
+    "best_run": {
+      "circuit_executions": 30,
+      "depth": 1,
+      "final_expected_energy": 40.725668109987566,
+      "gradient_method": "analytic statevector backpropagation",
+      "history": [
+        {
+          "energy": 41.98013633886716,
+          "step": 1
+        },
+        {
+          "energy": 41.18618451744545,
+          "step": 2
+        },
+        {
+          "energy": 43.745291149042444,
+          "step": 3
+        },
+        {
+          "energy": 42.85502208786001,
+          "step": 4
+        },
+        {
+          "energy": 41.72779673415238,
+          "step": 5
+        }
+      ],
+      "parameters": [
+        [
+          -0.10346793615243607,
+          -0.017248412683744403
+        ]
+      ],
+      "runtime_seconds": 0.03699841700017714,
+      "seed": 3,
+      "steps": 5
+    },
+    "finite_shots": [
+      {
+        "best_feasible": {
+          "bits": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "energy": -18.0,
+          "score": 18.0
+        },
+        "circuit_executions": 1,
+        "expected_energy": 36.59,
+        "feasible_sample_rate": 0.4,
+        "noise": "none; ideal finite-shot simulator",
+        "seed": 3,
+        "shots": 100,
+        "states": [
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 2,
+            "energy": 160.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 2,
+            "energy": 36.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 2,
+            "energy": 35.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "count": 4,
+            "energy": -9.0,
+            "feasible": true,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3,
+            "energy": 34.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "count": 3,
+            "energy": -11.0,
+            "feasible": true,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "count": 7,
+            "energy": -12.0,
+            "feasible": true,
+            "probability": 0.07
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "count": 2,
+            "energy": 23.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "count": 7,
+            "energy": -11.0,
+            "feasible": true,
+            "probability": 0.07
+          },
+          {
+            "bits": [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "count": 1,
+            "energy": -13.0,
+            "feasible": true,
+            "probability": 0.01
+          },
+          {
+            "bits": [
+              0,
+              1,
+              0,
+              1,
+              1
+            ],
+            "count": 2,
+            "energy": 23.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "count": 4,
+            "energy": -15.0,
+            "feasible": true,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "count": 3,
+            "energy": 20.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "count": 1,
+            "energy": 18.0,
+            "feasible": false,
+            "probability": 0.01
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 4,
+            "energy": 133.0,
+            "feasible": false,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 2,
+            "energy": 32.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 2,
+            "energy": -12.0,
+            "feasible": true,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 6,
+            "energy": -13.0,
+            "feasible": true,
+            "probability": 0.06
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "count": 3,
+            "energy": 23.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3,
+            "energy": -15.0,
+            "feasible": true,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "count": 5,
+            "energy": 20.0,
+            "feasible": false,
+            "probability": 0.05
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "count": 6,
+            "energy": 19.0,
+            "feasible": false,
+            "probability": 0.06
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "count": 4,
+            "energy": 134.0,
+            "feasible": false,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "count": 3,
+            "energy": -18.0,
+            "feasible": true,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "count": 3,
+            "energy": 18.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            "count": 5,
+            "energy": 16.0,
+            "feasible": false,
+            "probability": 0.05
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            "count": 3,
+            "energy": 132.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "count": 1,
+            "energy": 13.0,
+            "feasible": false,
+            "probability": 0.01
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "count": 2,
+            "energy": 128.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "count": 2,
+            "energy": 126.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 3,
+            "energy": 321.0,
+            "feasible": false,
+            "probability": 0.03
+          }
+        ]
+      }
+    ],
+    "noisy": [
+      {
+        "best_feasible": {
+          "bits": [
+            1,
+            1,
+            0,
+            0,
+            0
+          ],
+          "energy": -18.0,
+          "score": 18.0
+        },
+        "circuit_executions": 1,
+        "expected_energy": 35.800000000000004,
+        "feasible_sample_rate": 0.4,
+        "noise": "simulated layerwise single-qubit depolarizing channel p=0.02",
+        "seed": 3,
+        "shots": 100,
+        "states": [
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 2,
+            "energy": 160.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 2,
+            "energy": 36.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 2,
+            "energy": 35.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              1
+            ],
+            "count": 4,
+            "energy": -9.0,
+            "feasible": true,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3,
+            "energy": 34.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "count": 3,
+            "energy": -11.0,
+            "feasible": true,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "count": 7,
+            "energy": -12.0,
+            "feasible": true,
+            "probability": 0.07
+          },
+          {
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "count": 2,
+            "energy": 23.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              1,
+              0,
+              0,
+              1
+            ],
+            "count": 7,
+            "energy": -11.0,
+            "feasible": true,
+            "probability": 0.07
+          },
+          {
+            "bits": [
+              0,
+              1,
+              0,
+              1,
+              0
+            ],
+            "count": 1,
+            "energy": -13.0,
+            "feasible": true,
+            "probability": 0.01
+          },
+          {
+            "bits": [
+              0,
+              1,
+              0,
+              1,
+              1
+            ],
+            "count": 2,
+            "energy": 23.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "count": 4,
+            "energy": -15.0,
+            "feasible": true,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              0,
+              1
+            ],
+            "count": 3,
+            "energy": 20.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "count": 1,
+            "energy": 18.0,
+            "feasible": false,
+            "probability": 0.01
+          },
+          {
+            "bits": [
+              0,
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 4,
+            "energy": 133.0,
+            "feasible": false,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            "count": 2,
+            "energy": 32.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "count": 2,
+            "energy": -12.0,
+            "feasible": true,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "count": 6,
+            "energy": -13.0,
+            "feasible": true,
+            "probability": 0.06
+          },
+          {
+            "bits": [
+              1,
+              0,
+              0,
+              1,
+              1
+            ],
+            "count": 3,
+            "energy": 23.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "count": 3,
+            "energy": -15.0,
+            "feasible": true,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              0,
+              1
+            ],
+            "count": 5,
+            "energy": 20.0,
+            "feasible": false,
+            "probability": 0.05
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "count": 6,
+            "energy": 19.0,
+            "feasible": false,
+            "probability": 0.06
+          },
+          {
+            "bits": [
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "count": 4,
+            "energy": 134.0,
+            "feasible": false,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "count": 3,
+            "energy": -18.0,
+            "feasible": true,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "count": 3,
+            "energy": 18.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            "count": 4,
+            "energy": 16.0,
+            "feasible": false,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              1
+            ],
+            "count": 4,
+            "energy": 132.0,
+            "feasible": false,
+            "probability": 0.04
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              0,
+              0
+            ],
+            "count": 1,
+            "energy": 13.0,
+            "feasible": false,
+            "probability": 0.01
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "count": 2,
+            "energy": 128.0,
+            "feasible": false,
+            "probability": 0.02
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              0
+            ],
+            "count": 3,
+            "energy": 126.0,
+            "feasible": false,
+            "probability": 0.03
+          },
+          {
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "count": 2,
+            "energy": 321.0,
+            "feasible": false,
+            "probability": 0.02
+          }
+        ]
+      }
+    ],
+    "optimization_runs": [
+      {
+        "circuit_executions": 30,
+        "depth": 1,
+        "final_expected_energy": 40.725668109987566,
+        "gradient_method": "analytic statevector backpropagation",
+        "history": [
+          {
+            "energy": 41.98013633886716,
+            "step": 1
+          },
+          {
+            "energy": 41.18618451744545,
+            "step": 2
+          },
+          {
+            "energy": 43.745291149042444,
+            "step": 3
+          },
+          {
+            "energy": 42.85502208786001,
+            "step": 4
+          },
+          {
+            "energy": 41.72779673415238,
+            "step": 5
+          }
+        ],
+        "parameters": [
+          [
+            -0.10346793615243607,
+            -0.017248412683744403
+          ]
+        ],
+        "runtime_seconds": 0.03699841700017714,
+        "seed": 3,
+        "steps": 5
+      }
+    ]
+  },
+  "qnn": {
+    "dataset": {
+      "rule": "x0 + 0.7*x1 > 0",
+      "test": 8,
+      "train": 16
+    },
+    "runs": [
+      {
+        "circuit_executions": 456,
+        "epochs": 3,
+        "final_cost": 2.1646880167825695,
+        "gradient_method": "parameter-shift",
+        "history": [
+          2.2854225369195484,
+          2.250735148051141,
+          2.2126478312310116
+        ],
+        "parameter_count": 4,
+        "runtime_seconds": 0.21422058300049684,
+        "seed": 3,
+        "test_accuracy": 0.5,
+        "train_accuracy": 0.375
+      }
+    ]
+  },
+  "qubo_source": {
+    "instruction": "Use these exact QUBO coefficients, offset, binary-to-spin convention and classical optimum for QAOA; do not regenerate or rescale without recording a new artifact.",
+    "path": "data/track_b_qubo.json",
+    "sha256": "69b36ca819b8dd40718db89d63c01391333716d144b62130dc3bd372cf276dad"
+  },
+  "vqe": {
+    "derivative_check": {
+      "absolute_error": 3.6158520622109336e-11,
+      "finite_difference": -0.3050586364072849,
+      "finite_difference_circuit_calls": 2,
+      "parameter_shift": -0.30505863644344344,
+      "parameter_shift_circuit_calls": 2
+    },
+    "exact_ground_energy": -1.5628499608087782,
+    "optimizers": [
+      {
+        "circuit_executions": 92,
+        "energy": -0.6907454953398404,
+        "error_to_exact": 0.8721044654689378,
+        "history": [
+          -0.5213878626103873,
+          -0.5579002869273899,
+          -0.5936268521018986,
+          -0.6277892447484184,
+          -0.6600101699780279
+        ],
+        "iterations": 5,
+        "method": "parameter_shift_adam",
+        "parameters": [
+          -0.18665571909559348,
+          0.3628570142284022,
+          -0.7002025819168259,
+          0.2
+        ]
+      },
+      {
+        "circuit_executions": 42,
+        "energy": -0.5836052232467754,
+        "error_to_exact": 0.9792447375620028,
+        "expected_two_point_calls": 21,
+        "history": [
+          -0.5200773874923605,
+          -0.5271548114389109,
+          -0.5350974411105576,
+          -0.5632948805125754,
+          -0.5651887967459593,
+          -0.5661754860711128,
+          -0.567099160743314,
+          -0.5675319229016911,
+          -0.568341344292169,
+          -0.5695073204293433
+        ],
+        "iterations": 10,
+        "method": "spsa",
+        "parameters": [
+          -0.08966264854445535,
+          0.04955902464009426,
+          -0.269142431711922,
+          0.3039331272178808
+        ]
+      },
+      {
+        "circuit_executions": 117,
+        "energy": -0.6630388984987112,
+        "error_to_exact": 0.899811062310067,
+        "history": [
+          -0.5565536119283052,
+          -0.5854176895223651,
+          -0.6107721150137826,
+          -0.6359612885342878,
+          -0.6630388984987112
+        ],
+        "iterations": 5,
+        "method": "quantum_natural_gradient",
+        "metric": "block-diagonal Fubini-Study metric with 1e-3 diagonal regularization",
+        "metric_condition_numbers": [
+          23.09665238255232,
+          70.27602488104223,
+          228.24372208642995,
+          163.23202095462395,
+          72.59549408573027
+        ],
+        "parameters": [
+          -0.14266365452165633,
+          0.06852881703934327,
+          -0.613508692706728,
+          0.2
+        ]
+      }
+    ]
+  }
+}

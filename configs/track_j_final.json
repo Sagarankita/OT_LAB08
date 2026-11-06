@@ -1,0 +1,8 @@
+{
+  "benchmark_repetitions": 3,
+  "benchmark_warmups": 1,
+  "ilp_time_limit_seconds": 60,
+  "mutations": 2,
+  "run_kind": "final",
+  "seed": 20261028
+}

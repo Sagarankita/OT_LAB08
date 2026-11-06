@@ -1,0 +1,32 @@
+{
+  "purpose": "environment smoke only",
+  "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "logical_cpus": 10,
+  "versions": {
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1",
+    "torch": "2.14.1",
+    "pennylane": "0.45.1",
+    "coverage": "7.17.0"
+  },
+  "sqlite": "3.53.0",
+  "tools": {
+    "git": "/usr/bin/git",
+    "clang": "/usr/bin/clang",
+    "make": "/usr/bin/make",
+    "qemu-system-riscv64": null,
+    "riscv64-unknown-elf-gcc": null,
+    "riscv64-linux-gnu-gcc": null
+  },
+  "checks": {
+    "milp": "pass",
+    "torch_cpu_autograd": "pass",
+    "quantum_simulator": "pass",
+    "sqlite": "pass",
+    "plot": "pass"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "infrastructure_smoke",
+  "run_kind": "debug",
+  "seeds": [11],
+  "repetitions": 2,
+  "warmup_repetitions": 1,
+  "input_size": 256,
+  "timeout_seconds": 30,
+  "units": {
+    "execution_seconds": "seconds",
+    "objective": "sum of squared values",
+    "absolute_error": "sum of squared values"
+  },
+  "solver_settings": {
+    "methods": ["python_fsum", "numpy_dot"],
+    "reference": "math.fsum"
+  }
+}
+

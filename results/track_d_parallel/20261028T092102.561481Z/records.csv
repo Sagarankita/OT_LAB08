@@ -1,0 +1,11 @@
+checksum,elapsed_seconds,exact_selected,exact_value,experiment,greedy_selected,greedy_value,method,ratio,remote_tasks,repetition,residual_overhead_seconds,seed,steals,workers
+,,"(0, 2, 8, 11)",25,submodular,"(3, 0, 9, 11)",24,greedy,0.96,,,,20261029,,
+,,"(1, 2, 6, 8)",32,submodular,"(1, 6, 8, 2)",32,greedy,1.0,,,,20261030,,
+,,"(0, 3, 4, 6)",31,submodular,"(0, 10, 4, 6)",31,greedy,1.0,,,,20261031,,
+1278779825575575,0.05936958299980688,,,fixed_scheduling,,,serial,,0,0,0.0,,0,1
+1278779825575575,0.29427816699990217,,,fixed_scheduling,,,static,,0,0,0.2315656669998134,,0,1
+1278779825575575,0.28420420800011925,,,fixed_scheduling,,,static,,7,0,0.2519698740002241,,0,2
+1278779825575575,0.3015839159997995,,,fixed_scheduling,,,dynamic,,0,0,0.23917179099998975,,0,1
+1278779825575575,0.2825914170002761,,,fixed_scheduling,,,dynamic,,5,0,0.2500292500003525,,0,2
+1278779825575575,0.30694820799999434,,,fixed_scheduling,,,work_stealing,,0,0,0.24310483299996122,,0,1
+1278779825575575,0.2855775839998387,,,fixed_scheduling,,,work_stealing,,1,0,0.25364404299989474,,1,2

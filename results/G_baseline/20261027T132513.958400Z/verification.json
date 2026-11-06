@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "metadata_reports_success": false,
+    "build_succeeded": true,
+    "upstream_commit_matches_pin": true,
+    "console_hash_matches": true,
+    "boot_echo": false,
+    "full_usertests_command": true,
+    "all_expected_tests_started_in_order": true,
+    "all_tests_passed_marker": true,
+    "post_test_shell_echo": true,
+    "no_failure_or_panic": true,
+    "kernel_hash_matches": true
+  },
+  "expected_tests": 74,
+  "observed_tests": 74,
+  "original_source_files_verified": 82,
+  "passed": false
+}

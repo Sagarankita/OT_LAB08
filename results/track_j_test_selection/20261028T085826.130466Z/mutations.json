@@ -1,0 +1,58 @@
+[
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "full",
+    "mutation": "take_off_by_one",
+    "runtime_seconds": 8.641709624999748
+  },
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "naive",
+    "mutation": "take_off_by_one",
+    "runtime_seconds": 6.297745125000347
+  },
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "greedy",
+    "mutation": "take_off_by_one",
+    "runtime_seconds": 5.730269583000336
+  },
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "ilp",
+    "mutation": "take_off_by_one",
+    "runtime_seconds": 5.750526709000042
+  },
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "full",
+    "mutation": "quantify_plus_one",
+    "runtime_seconds": 6.946019833999799
+  },
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "naive",
+    "mutation": "quantify_plus_one",
+    "runtime_seconds": 5.642771249999896
+  },
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "greedy",
+    "mutation": "quantify_plus_one",
+    "runtime_seconds": 5.409142832999805
+  },
+  {
+    "exit_code": 1,
+    "killed": true,
+    "method": "ilp",
+    "mutation": "quantify_plus_one",
+    "runtime_seconds": 5.321913042000233
+  }
+]

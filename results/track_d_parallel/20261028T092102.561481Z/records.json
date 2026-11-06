@@ -1,0 +1,139 @@
+[
+  {
+    "exact_selected": [
+      0,
+      2,
+      8,
+      11
+    ],
+    "exact_value": 25,
+    "experiment": "submodular",
+    "greedy_selected": [
+      3,
+      0,
+      9,
+      11
+    ],
+    "greedy_value": 24,
+    "method": "greedy",
+    "ratio": 0.96,
+    "seed": 20261029
+  },
+  {
+    "exact_selected": [
+      1,
+      2,
+      6,
+      8
+    ],
+    "exact_value": 32,
+    "experiment": "submodular",
+    "greedy_selected": [
+      1,
+      6,
+      8,
+      2
+    ],
+    "greedy_value": 32,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261030
+  },
+  {
+    "exact_selected": [
+      0,
+      3,
+      4,
+      6
+    ],
+    "exact_value": 31,
+    "experiment": "submodular",
+    "greedy_selected": [
+      0,
+      10,
+      4,
+      6
+    ],
+    "greedy_value": 31,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261031
+  },
+  {
+    "checksum": 1278779825575575,
+    "elapsed_seconds": 0.05936958299980688,
+    "experiment": "fixed_scheduling",
+    "method": "serial",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.0,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 1278779825575575,
+    "elapsed_seconds": 0.29427816699990217,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.2315656669998134,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 1278779825575575,
+    "elapsed_seconds": 0.28420420800011925,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 7,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.2519698740002241,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 1278779825575575,
+    "elapsed_seconds": 0.3015839159997995,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.23917179099998975,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 1278779825575575,
+    "elapsed_seconds": 0.2825914170002761,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 5,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.2500292500003525,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 1278779825575575,
+    "elapsed_seconds": 0.30694820799999434,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.24310483299996122,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 1278779825575575,
+    "elapsed_seconds": 0.2855775839998387,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 1,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.25364404299989474,
+    "steals": 1,
+    "workers": 2
+  }
+]

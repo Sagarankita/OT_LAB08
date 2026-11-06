@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "final_configuration": true,
+    "documented_100k_dataset": true,
+    "six_query_workload": true,
+    "seven_candidate_indexes": true,
+    "record_count": true,
+    "all_variant_query_pairs_present": true,
+    "saved_ordered_result_hashes_identical": true,
+    "independent_full_dataset_results_identical": true,
+    "measured_index_storage_reproduced": true,
+    "greedy_selection_reproduced": true,
+    "dp_selection_reproduced": true,
+    "dp_matches_exhaustive_additive_oracle": true,
+    "selected_sets_within_budget": true,
+    "all_indexes_exceeds_or_equals_budget": true,
+    "plans_preserved_for_every_variant_query": true,
+    "latencies_positive": true,
+    "warm_cache_and_build_cost_policy_recorded": true,
+    "sqlite_plan_label_is_explain_query_plan": true,
+    "all_declared_artifact_hashes_match": true,
+    "git_provenance_pending_user": true
+  },
+  "passed": true,
+  "raw_records": 168,
+  "dp_additive_value_us": 8009,
+  "exhaustive_additive_value_us": 8009,
+  "greedy_selection": [
+    "idx_orders_customer_status",
+    "idx_orders_day",
+    "idx_customers_region"
+  ],
+  "dp_selection": [
+    "idx_orders_customer_status",
+    "idx_orders_day",
+    "idx_customers_region"
+  ]
+}

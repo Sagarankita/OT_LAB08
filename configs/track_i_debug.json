@@ -1,0 +1,13 @@
+{
+  "run_kind": "debug",
+  "seeds": [3],
+  "algorithm_shots": 200,
+  "grover_timing_repetitions": 3,
+  "annealing_times": [0.5, 2.0],
+  "annealing_steps": 20,
+  "qml_epochs": 3,
+  "qml_learning_rate": 0.08,
+  "noise_probability": 0.02,
+  "noise_shots": 100,
+  "kernel_lambdas": [0.01, 0.1]
+}

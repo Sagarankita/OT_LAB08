@@ -1,0 +1,338 @@
+{
+  "environment": {
+    "execution": "single-machine local simulation; not geographically distributed hardware",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.15",
+    "torch": "2.14.1",
+    "torch_threads": 1
+  },
+  "fedavg": {
+    "iid": {
+      "same_communication_rounds": [
+        {
+          "accuracy": {
+            "mean": 0.8375,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.8375,
+            "stdev": 0.0
+          },
+          "centralized_steps": 3,
+          "examples_processed": 360,
+          "local_steps": 1,
+          "rounds": 3,
+          "runtime_seconds": {
+            "mean": 0.00012250000008862116,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 1344
+        },
+        {
+          "accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "centralized_steps": 9,
+          "examples_processed": 1080,
+          "local_steps": 3,
+          "rounds": 3,
+          "runtime_seconds": {
+            "mean": 0.00032791700004963786,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 1344
+        }
+      ],
+      "same_compute": [
+        {
+          "accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "centralized_steps": 6,
+          "examples_processed": 720,
+          "local_steps": 1,
+          "rounds": 6,
+          "runtime_seconds": {
+            "mean": 0.00026866700000027777,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 2688
+        },
+        {
+          "accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "centralized_steps": 6,
+          "examples_processed": 720,
+          "local_steps": 3,
+          "rounds": 2,
+          "runtime_seconds": {
+            "mean": 0.00022795800032326952,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 896
+        }
+      ]
+    },
+    "non_iid": {
+      "same_communication_rounds": [
+        {
+          "accuracy": {
+            "mean": 0.8375,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.8375,
+            "stdev": 0.0
+          },
+          "centralized_steps": 3,
+          "examples_processed": 360,
+          "local_steps": 1,
+          "rounds": 3,
+          "runtime_seconds": {
+            "mean": 0.00011837499960165587,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 1344
+        },
+        {
+          "accuracy": {
+            "mean": 0.8375,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": -0.012499999999999956,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "centralized_steps": 9,
+          "examples_processed": 1080,
+          "local_steps": 3,
+          "rounds": 3,
+          "runtime_seconds": {
+            "mean": 0.0003240840001126344,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 1344
+        }
+      ],
+      "same_compute": [
+        {
+          "accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": 0.0,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "centralized_steps": 6,
+          "examples_processed": 720,
+          "local_steps": 1,
+          "rounds": 6,
+          "runtime_seconds": {
+            "mean": 0.00027137500001117587,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 2688
+        },
+        {
+          "accuracy": {
+            "mean": 0.825,
+            "stdev": 0.0
+          },
+          "accuracy_gap": {
+            "mean": -0.025000000000000022,
+            "stdev": 0.0
+          },
+          "centralized_accuracy": {
+            "mean": 0.85,
+            "stdev": 0.0
+          },
+          "centralized_steps": 6,
+          "examples_processed": 720,
+          "local_steps": 3,
+          "rounds": 2,
+          "runtime_seconds": {
+            "mean": 0.00023449999980584835,
+            "stdev": 0.0
+          },
+          "transmitted_parameter_bytes": 896
+        }
+      ]
+    }
+  },
+  "fedavg_accounting": {
+    "bytes_convention": "64-bit parameters, client download plus upload each round",
+    "client_sizes": [
+      20,
+      25,
+      30,
+      45
+    ],
+    "clients": 4,
+    "parameter_count": 7,
+    "weighted_aggregation_check": {
+      "different_due_to_unequal_clients": true,
+      "unweighted": [
+        1.5,
+        1.5
+      ],
+      "weighted": [
+        1.8333333333333335,
+        1.8333333333333335
+      ]
+    }
+  },
+  "multitask": {
+    "equal": {
+      "accuracy_one": {
+        "mean": 0.8125,
+        "stdev": 0.0
+      },
+      "accuracy_two": {
+        "mean": 0.7749999761581421,
+        "stdev": 0.0
+      },
+      "final_weight_one": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "final_weight_two": {
+        "mean": 1.0,
+        "stdev": 0.0
+      },
+      "loss_one": {
+        "mean": 0.5241197347640991,
+        "stdev": 0.0
+      },
+      "loss_two": {
+        "mean": 0.5156399011611938,
+        "stdev": 0.0
+      },
+      "runtime_seconds": {
+        "mean": 0.01656458300021768,
+        "stdev": 0.0
+      }
+    },
+    "gradnorm": {
+      "accuracy_one": {
+        "mean": 0.8125,
+        "stdev": 0.0
+      },
+      "accuracy_two": {
+        "mean": 0.7749999761581421,
+        "stdev": 0.0
+      },
+      "final_weight_one": {
+        "mean": 1.0363768339157104,
+        "stdev": 0.0
+      },
+      "final_weight_two": {
+        "mean": 0.9636232256889343,
+        "stdev": 0.0
+      },
+      "loss_one": {
+        "mean": 0.5233590602874756,
+        "stdev": 0.0
+      },
+      "loss_two": {
+        "mean": 0.5155698657035828,
+        "stdev": 0.0
+      },
+      "runtime_seconds": {
+        "mean": 0.003361374999713007,
+        "stdev": 0.0
+      }
+    },
+    "mgda": {
+      "accuracy_one": {
+        "mean": 0.824999988079071,
+        "stdev": 0.0
+      },
+      "accuracy_two": {
+        "mean": 0.75,
+        "stdev": 0.0
+      },
+      "final_weight_one": {
+        "mean": 1.5999796390533447,
+        "stdev": 0.0
+      },
+      "final_weight_two": {
+        "mean": 0.4000203609466553,
+        "stdev": 0.0
+      },
+      "loss_one": {
+        "mean": 0.507157027721405,
+        "stdev": 0.0
+      },
+      "loss_two": {
+        "mean": 0.5337932705879211,
+        "stdev": 0.0
+      },
+      "runtime_seconds": {
+        "mean": 0.0023325829997702385,
+        "stdev": 0.0
+      }
+    }
+  },
+  "multitask_correctness": {
+    "gradnorm": {
+      "all_weight_sums_two": true,
+      "weights_positive": true,
+      "weights_received_nonzero_gradients": true
+    },
+    "mgda_known_case": {
+      "expected_opposing": 0.5,
+      "expected_orthogonal_unequal": 0.8,
+      "opposing": 0.5,
+      "orthogonal_unequal": 0.8
+    },
+    "same_data_split": true,
+    "same_epochs": 10,
+    "same_initialization_per_seed": true
+  },
+  "run_kind": "debug"
+}

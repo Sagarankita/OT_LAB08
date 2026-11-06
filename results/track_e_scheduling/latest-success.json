@@ -1,0 +1,10 @@
+{
+  "run_directory": "results/track_e_scheduling/20261027T135208.655940Z",
+  "run_kind": "final",
+  "records": 135,
+  "instances": 15,
+  "seeds": 5,
+  "methods": 3,
+  "independent_verification_checks": 17,
+  "independent_verification_passed": true
+}

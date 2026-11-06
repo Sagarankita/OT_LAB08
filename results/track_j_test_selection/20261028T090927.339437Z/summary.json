@@ -1,0 +1,165 @@
+{
+  "codebase": {
+    "archive_sha256": "9fddd5403be01a94b204faadcff459ec3568cf110265d3c54323e1e866ad29d3",
+    "license": "MIT",
+    "license_file": "vendor/track_j/more_itertools-10.7.0/LICENSE",
+    "meaningful_nonblank_noncomment_source_lines": 4728,
+    "physical_source_lines": 6353,
+    "production_python_files": [
+      "more_itertools/__init__.py",
+      "more_itertools/more.py",
+      "more_itertools/recipes.py"
+    ],
+    "project": "more-itertools",
+    "source_distribution": "https://files.pythonhosted.org/packages/source/m/more-itertools/more_itertools-10.7.0.tar.gz",
+    "upstream": "https://github.com/more-itertools/more-itertools",
+    "version": "10.7.0"
+  },
+  "environment": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "processor_count": 10,
+    "python": "3.11.15"
+  },
+  "full_covered_lines": 2030,
+  "full_tests": 671,
+  "methods": {
+    "full": {
+      "coverage_preserved": true,
+      "mean_runtime_seconds": 6.998714222666725,
+      "runtime_reduction_percent": 0.0,
+      "selection_overhead_seconds": 0.0,
+      "solver_status": "not_applicable",
+      "stdev_runtime_seconds": 0.008822357689527667,
+      "tests": 671,
+      "verification_repairs": []
+    },
+    "greedy": {
+      "coverage_preserved": true,
+      "mean_runtime_seconds": 5.398887888666498,
+      "runtime_reduction_percent": 22.85886068642254,
+      "selection_overhead_seconds": 0.03231233299993619,
+      "solver_status": "feasible",
+      "stdev_runtime_seconds": 0.004838426478904237,
+      "tests": 263,
+      "verification_repairs": []
+    },
+    "ilp": {
+      "coverage_preserved": true,
+      "mean_runtime_seconds": 5.391975430666662,
+      "runtime_reduction_percent": 22.957628228286854,
+      "selection_overhead_seconds": 0.009396750000178145,
+      "solver_status": "optimal",
+      "stdev_runtime_seconds": 0.014523140841842143,
+      "tests": 242,
+      "verification_repairs": []
+    },
+    "naive": {
+      "coverage_preserved": true,
+      "mean_runtime_seconds": 5.68192591666669,
+      "runtime_reduction_percent": 18.814717448175763,
+      "selection_overhead_seconds": 0.0004776249998030835,
+      "solver_status": "deterministic",
+      "stdev_runtime_seconds": 0.024723654456466054,
+      "tests": 304,
+      "verification_repairs": []
+    }
+  },
+  "mutations": [
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "full",
+      "mutation": "take_off_by_one",
+      "runtime_seconds": 8.379988625000351
+    },
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "naive",
+      "mutation": "take_off_by_one",
+      "runtime_seconds": 6.337436166000316
+    },
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "greedy",
+      "mutation": "take_off_by_one",
+      "runtime_seconds": 5.751128000000335
+    },
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "ilp",
+      "mutation": "take_off_by_one",
+      "runtime_seconds": 5.869281999999657
+    },
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "full",
+      "mutation": "quantify_plus_one",
+      "runtime_seconds": 6.982784249999895
+    },
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "naive",
+      "mutation": "quantify_plus_one",
+      "runtime_seconds": 5.698943833000158
+    },
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "greedy",
+      "mutation": "quantify_plus_one",
+      "runtime_seconds": 5.428264958
+    },
+    {
+      "exit_code": 1,
+      "killed": true,
+      "method": "ilp",
+      "mutation": "quantify_plus_one",
+      "runtime_seconds": 5.355888291000156
+    }
+  ],
+  "profile_checks": {
+    "full": {
+      "coverage_preserved": true,
+      "executed_lines": 2030,
+      "exit_code": 0,
+      "target_lines_retained": 2030,
+      "target_lines_total": 2030
+    },
+    "greedy": {
+      "coverage_preserved": true,
+      "executed_lines": 2030,
+      "exit_code": 0,
+      "target_lines_retained": 2030,
+      "target_lines_total": 2030
+    },
+    "ilp": {
+      "coverage_preserved": true,
+      "executed_lines": 2030,
+      "exit_code": 0,
+      "target_lines_retained": 2030,
+      "target_lines_total": 2030
+    },
+    "naive": {
+      "coverage_preserved": true,
+      "executed_lines": 2030,
+      "exit_code": 0,
+      "target_lines_retained": 2030,
+      "target_lines_total": 2030
+    }
+  },
+  "profiling_wall_seconds": {
+    "full": 27.98323454199999,
+    "greedy": 21.277220999999827,
+    "ilp": 21.42583724999986,
+    "naive": 21.910172916999727
+  },
+  "run_kind": "final",
+  "selectable_target_lines": 1722,
+  "session_common_lines": 308,
+  "total_profiling_wall_seconds": 92.5964657089994
+}

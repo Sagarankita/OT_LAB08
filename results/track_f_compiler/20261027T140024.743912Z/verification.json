@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "final_configuration": true,
+    "five_generated_seeds": true,
+    "known_and_generated_evaluation_programs": true,
+    "record_count": true,
+    "all_pipeline_pairs_present": true,
+    "all_outputs_match_ast_reference_and_independent_vm": true,
+    "instruction_counts_sizes_and_sequences_recomputed": true,
+    "all_four_passes_in_fixed_and_dp_sequences": true,
+    "pass_budget_equal": true,
+    "dp_selection_reproduced": true,
+    "dp_tuning_objective_no_worse_than_fixed": true,
+    "tuning_and_evaluation_sets_disjoint": true,
+    "reassignment_and_side_effect_cases_present": true,
+    "timing_policy_recorded": true,
+    "integer_and_side_effect_semantics_recorded": true,
+    "all_declared_artifact_hashes_match": true,
+    "git_provenance_pending_user": true
+  },
+  "passed": true,
+  "raw_records": 270,
+  "evaluation_programs": 9,
+  "selected_sequence": [
+    "common_subexpression_elimination",
+    "constant_propagation",
+    "constant_folding",
+    "dead_code_elimination"
+  ],
+  "fixed_tuning_bytes": 319,
+  "dp_tuning_bytes": 283
+}

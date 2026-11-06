@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "independent_verification_checks": 30,
+  "independent_verification_passed": true,
+  "records": 45,
+  "run_directory": "results/track_d_distributed/20261028T092752.487437Z",
+  "run_kind": "final"
+}

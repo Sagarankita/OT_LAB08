@@ -1,0 +1,156 @@
+{
+  "builds": {
+    "baseline": {
+      "command": [
+        "make",
+        "-j4",
+        "-B",
+        "TOOLPREFIX=riscv64-elf-",
+        "DETFLAGS='-ffile-prefix-map=/Users/ankitasagar/Desktop/OT LAB8/vendor/xv6-riscv-track-g-baseline=.'",
+        "CPUS=1",
+        "kernel/kernel",
+        "fs.img"
+      ],
+      "initial_fs_sha256": "9a090957382d0c41c4644dc14f1fe294ea50d80cca912c0dedb3f83f2b089568",
+      "kernel_sha256": "adde36fce952ebf55425269b7d245a271792850a424877b013a6aaf16047fd7e",
+      "returncode": 0,
+      "seconds": 1.3622413330012932
+    },
+    "stride": {
+      "command": [
+        "make",
+        "-j4",
+        "-B",
+        "TOOLPREFIX=riscv64-elf-",
+        "DETFLAGS='-ffile-prefix-map=/Users/ankitasagar/Desktop/OT LAB8/vendor/xv6-riscv-track-g-stride=.'",
+        "CPUS=1",
+        "kernel/kernel",
+        "fs.img"
+      ],
+      "initial_fs_sha256": "ab531cd7c61f07ee3ed3d374fe49754a12e20a8391a7f6feb995c0ef9b456fc8",
+      "kernel_sha256": "ea3b827fefcb6ee0b79fac6a53175bda6216e0ae2bb833881ba20187aa218609",
+      "returncode": 0,
+      "seconds": 1.0294428749984945
+    }
+  },
+  "checksums_identical": true,
+  "guest": {
+    "baseline": {
+      "benchmark_commands": 3,
+      "benchmark_completions": 3,
+      "benchmark_records": 8,
+      "console_sha256": "05f36c037b1ef8265f44d31acdd8944177fcf17ee00a0d5d60d42678b5ac2257",
+      "guest_commands": [
+        "schedbench cpu",
+        "schedbench mixed",
+        "schedbench latency",
+        "echo TRACK_G_BASELINE_DONE"
+      ],
+      "passed": true,
+      "policy": "baseline",
+      "qemu_command": [
+        "qemu-system-riscv64",
+        "-machine",
+        "virt",
+        "-bios",
+        "none",
+        "-kernel",
+        "kernel/kernel",
+        "-m",
+        "128M",
+        "-smp",
+        "1",
+        "-nographic",
+        "-global",
+        "virtio-mmio.force-legacy=false",
+        "-drive",
+        "file=fs.img,if=none,format=raw,id=x0",
+        "-device",
+        "virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0"
+      ],
+      "qemu_exit_returncode": 0,
+      "qemu_seconds": 2.1056889579995186,
+      "qemu_stopped_by_harness": true,
+      "result": "passed",
+      "run_usertests": false,
+      "test_names_started": [],
+      "usertests_passed": false
+    },
+    "stride": {
+      "benchmark_commands": 3,
+      "benchmark_completions": 3,
+      "benchmark_records": 8,
+      "console_sha256": "4087d53f08fcb0a6089755284ded64136f332a07284888b133b650b94213bf68",
+      "guest_commands": [
+        "schedbench cpu",
+        "schedbench mixed",
+        "schedbench latency",
+        "echo TRACK_G_STRIDE_DONE"
+      ],
+      "passed": true,
+      "policy": "stride",
+      "qemu_command": [
+        "qemu-system-riscv64",
+        "-machine",
+        "virt",
+        "-bios",
+        "none",
+        "-kernel",
+        "kernel/kernel",
+        "-m",
+        "128M",
+        "-smp",
+        "1",
+        "-nographic",
+        "-global",
+        "virtio-mmio.force-legacy=false",
+        "-drive",
+        "file=fs.img,if=none,format=raw,id=x0",
+        "-device",
+        "virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0"
+      ],
+      "qemu_exit_returncode": 0,
+      "qemu_seconds": 2.104060124998796,
+      "qemu_stopped_by_harness": true,
+      "result": "passed",
+      "run_usertests": false,
+      "test_names_started": [],
+      "usertests_passed": false
+    }
+  },
+  "patch": {
+    "bytes": 12947,
+    "method": "diff -uN over explicit source allowlist",
+    "returncodes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "sha256": "1fbce51117db463ca18b9ab4f78e96d44ddfd0c36dace2be89e346c26474fc00",
+    "source_files": [
+      "Makefile",
+      "kernel/defs.h",
+      "kernel/proc.c",
+      "kernel/proc.h",
+      "kernel/sched.h",
+      "kernel/syscall.c",
+      "kernel/syscall.h",
+      "kernel/sysproc.c",
+      "kernel/trap.c",
+      "user/schedbench.c",
+      "user/user.h",
+      "user/usys.pl"
+    ]
+  },
+  "record_count": 16,
+  "records_per_policy": 8
+}

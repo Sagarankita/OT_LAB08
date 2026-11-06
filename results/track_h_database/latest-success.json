@@ -1,0 +1,10 @@
+{
+  "run_directory": "results/track_h_database/20261028T084139.426860Z",
+  "run_kind": "final",
+  "orders": 100000,
+  "queries": 6,
+  "candidate_indexes": 7,
+  "raw_records": 168,
+  "independent_verification_checks": 20,
+  "independent_verification_passed": true
+}

@@ -1,0 +1,24 @@
+{
+  "emulated_cpus": 1,
+  "error": "RuntimeError(\"baseline guest failed: {'policy': 'baseline', 'qemu_command': ['qemu-system-riscv64', '-machine', 'virt', '-bios', 'none', '-kernel', 'kernel/kernel', '-m', '128M', '-smp', '1', '-nographic', '-global', 'virtio-mmio.force-legacy=false', '-drive', 'file=fs.img,if=none,format=raw,id=x0', '-device', 'virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0'], 'guest_commands': ['schedbench cpu', 'schedbench mixed'], 'run_usertests': False, 'result': 'failed', 'error': 'baseline timeout in benchmarks', 'phase_at_failure': 'benchmarks', 'passed': False, 'benchmark_commands': 3, 'benchmark_completions': 1, 'benchmark_records': 3, 'usertests_passed': False, 'test_names_started': [], 'console_sha256': '034c8cf1d0498fb86722d6f9116531ebaf8f6d4802b6845282ea7bde5ff1ecf0', 'qemu_seconds': 120.94779187499807, 'qemu_exit_returncode': 0, 'qemu_stopped_by_harness': True}\")",
+  "finished_at_utc": "2026-10-27T14:11:49.812597+00:00",
+  "host": "macOS-26.5.2-arm64-arm-64bit",
+  "memory_mib": 128,
+  "provenance": {
+    "git_managed_by": "user",
+    "git_revision": "pending user Git work"
+  },
+  "repetitions": 1,
+  "run_kind": "debug",
+  "started_at_utc": "2026-10-27T14:09:46.799247+00:00",
+  "status": "failed",
+  "step": "07",
+  "timer_resolution": "one xv6 tick; timer programmed for ~0.1 seconds",
+  "tools": {
+    "diff": "Apple diff (based on FreeBSD diff)",
+    "make": "GNU Make 3.81",
+    "qemu-system-riscv64": "QEMU emulator version 11.1.2",
+    "riscv64-elf-gcc": "riscv64-elf-gcc (GCC) 16.2.0"
+  },
+  "upstream_commit": "e93dabeb98431235c6e1a101cb96c73c923fdbc4"
+}

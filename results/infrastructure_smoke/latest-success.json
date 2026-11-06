@@ -1,0 +1,11 @@
+{
+  "run_directory": "results/infrastructure_smoke/20261027T133503.973784Z",
+  "run_kind": "final",
+  "seed_count": 5,
+  "repetitions_per_seed_and_method": 5,
+  "warmup_repetitions_per_seed_and_method": 2,
+  "record_count": 50,
+  "independent_verification_passed": true,
+  "scope": "infrastructure smoke only; not an assignment optimization result"
+}
+

@@ -1,0 +1,9 @@
+{
+  "full_covered_lines": 2030,
+  "full_tests": 671,
+  "independent_verification_checks": 22,
+  "independent_verification_passed": true,
+  "passed": true,
+  "run_directory": "results/track_j_test_selection/20261028T090927.339437Z",
+  "run_kind": "final"
+}

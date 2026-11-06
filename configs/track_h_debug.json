@@ -1,0 +1,21 @@
+{
+  "experiment": "track_h_database",
+  "run_kind": "debug",
+  "seeds": [1701],
+  "repetitions": 2,
+  "warmup_repetitions": 1,
+  "input_size": 10000,
+  "timeout_seconds": 120,
+  "units": {
+    "execution_seconds": "seconds",
+    "storage_bytes": "bytes",
+    "throughput": "queries per second"
+  },
+  "solver_settings": {
+    "customer_count": 1000,
+    "product_count": 200,
+    "budget_fraction_of_individual_pages": 0.45,
+    "selection_estimation_repetitions": 2,
+    "variants": ["baseline", "greedy", "dynamic_programming", "all_indexes"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "final_one_cpu_configuration": true,
+    "three_repetitions": true,
+    "both_builds_succeeded": true,
+    "record_count": true,
+    "all_workloads_paired": true,
+    "outputs_preserved_by_checksum": true,
+    "baseline_has_no_extension_stats": true,
+    "stride_stats_present": true,
+    "weight_controls_reflected": true,
+    "baseline_guest_completed": true,
+    "modified_guest_completed": true,
+    "all_upstream_tests_started_in_order": true,
+    "all_tests_passed_and_shell_recovered": true,
+    "no_guest_panic_or_failure": true,
+    "benchmark_source_identical": true,
+    "pinned_source_manifest_unchanged": true,
+    "patch_hash_and_dry_run": true,
+    "kernel_binaries_differ": true,
+    "timer_resolution_disclosed": true,
+    "analysis_reports_mixed_result": true,
+    "all_artifact_hashes_match": true,
+    "git_provenance_pending_user": true
+  },
+  "passed": true,
+  "expected_tests": 74,
+  "observed_tests": 74,
+  "raw_records": 48,
+  "patch_dry_run_returncode": 0
+}

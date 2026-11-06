@@ -1,0 +1,271 @@
+{
+  "amdahl_fits": {
+    "dynamic": {
+      "1": {
+        "fitted_serial_fraction": 1.0,
+        "model_valid_fraction": true,
+        "observed_speedup": 0.19685924828911086
+      },
+      "2": {
+        "fitted_serial_fraction": 8.519737303905112,
+        "model_valid_fraction": false,
+        "observed_speedup": 0.2100898308590486
+      }
+    },
+    "static": {
+      "1": {
+        "fitted_serial_fraction": 1.0,
+        "model_valid_fraction": true,
+        "observed_speedup": 0.20174647546933586
+      },
+      "2": {
+        "fitted_serial_fraction": 8.574067852255041,
+        "model_valid_fraction": false,
+        "observed_speedup": 0.20889762124768388
+      }
+    },
+    "work_stealing": {
+      "1": {
+        "fitted_serial_fraction": 1.0,
+        "model_valid_fraction": true,
+        "observed_speedup": 0.1934188943035236
+      },
+      "2": {
+        "fitted_serial_fraction": 8.620333159515964,
+        "model_valid_fraction": false,
+        "observed_speedup": 0.207893008156552
+      }
+    }
+  },
+  "correctness": {
+    "all_fixed_outputs_equal": true,
+    "all_scaled_outputs_equal": true,
+    "data_outputs_equal": true,
+    "fixed_output_sha256": "7ec90f2f3b62d5f16b616f50de8dd4a8b180d116863bd026cc6d2aaa64a27e21",
+    "model_outputs_allclose": true,
+    "pipeline_outputs_equal": true
+  },
+  "environment": {
+    "blas_threads_requested": 1,
+    "logical_cpus": 10,
+    "multiprocessing_start_method": "spawn",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.15"
+  },
+  "fixed_scheduling": {
+    "dynamic": {
+      "1": {
+        "efficiency": 0.19685924828911086,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.23917179099998975,
+        "mean_seconds": 0.3015839159997995,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.3015839159997995
+        ],
+        "speedup": 0.19685924828911086,
+        "stdev_seconds": 0.0
+      },
+      "2": {
+        "efficiency": 0.1050449154295243,
+        "mean_remote_tasks": 5,
+        "mean_residual_overhead_seconds": 0.2500292500003525,
+        "mean_seconds": 0.2825914170002761,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.2825914170002761
+        ],
+        "speedup": 0.2100898308590486,
+        "stdev_seconds": 0.0
+      }
+    },
+    "serial": {
+      "1": {
+        "efficiency": 1.0,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.0,
+        "mean_seconds": 0.05936958299980688,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.05936958299980688
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 0.0
+      }
+    },
+    "static": {
+      "1": {
+        "efficiency": 0.20174647546933586,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.2315656669998134,
+        "mean_seconds": 0.29427816699990217,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.29427816699990217
+        ],
+        "speedup": 0.20174647546933586,
+        "stdev_seconds": 0.0
+      },
+      "2": {
+        "efficiency": 0.10444881062384194,
+        "mean_remote_tasks": 7,
+        "mean_residual_overhead_seconds": 0.2519698740002241,
+        "mean_seconds": 0.28420420800011925,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.28420420800011925
+        ],
+        "speedup": 0.20889762124768388,
+        "stdev_seconds": 0.0
+      }
+    },
+    "work_stealing": {
+      "1": {
+        "efficiency": 0.1934188943035236,
+        "mean_remote_tasks": 0,
+        "mean_residual_overhead_seconds": 0.24310483299996122,
+        "mean_seconds": 0.30694820799999434,
+        "mean_steals": 0,
+        "samples_seconds": [
+          0.30694820799999434
+        ],
+        "speedup": 0.1934188943035236,
+        "stdev_seconds": 0.0
+      },
+      "2": {
+        "efficiency": 0.103946504078276,
+        "mean_remote_tasks": 1,
+        "mean_residual_overhead_seconds": 0.25364404299989474,
+        "mean_seconds": 0.2855775839998387,
+        "mean_steals": 1,
+        "samples_seconds": [
+          0.2855775839998387
+        ],
+        "speedup": 0.207893008156552,
+        "stdev_seconds": 0.0
+      }
+    }
+  },
+  "parallel_paradigms": {
+    "data": {
+      "1": {
+        "communicated_bytes": 0,
+        "efficiency": 1.0,
+        "mean_seconds": 0.0009592080000402348,
+        "samples_seconds": [
+          0.0009592080000402348
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 0.0
+      },
+      "2": {
+        "communicated_bytes": 160000,
+        "efficiency": 0.002194403996290396,
+        "mean_seconds": 0.21855774999994537,
+        "samples_seconds": [
+          0.21855774999994537
+        ],
+        "speedup": 0.004388807992580792,
+        "stdev_seconds": 0.0
+      }
+    },
+    "model": {
+      "1": {
+        "communicated_bytes": 0,
+        "efficiency": 1.0,
+        "mean_seconds": 0.002081958999951894,
+        "samples_seconds": [
+          0.002081958999951894
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 0.0
+      },
+      "2": {
+        "communicated_bytes": 109056,
+        "efficiency": 0.004755217394914077,
+        "mean_seconds": 0.21891312500019922,
+        "samples_seconds": [
+          0.21891312500019922
+        ],
+        "speedup": 0.009510434789828154,
+        "stdev_seconds": 0.0
+      }
+    },
+    "pipeline": {
+      "parallel": {
+        "communicated_bytes": 96000,
+        "mean_seconds": 0.2691714170000523,
+        "samples_seconds": [
+          0.2691714170000523
+        ],
+        "speedup": 0.0011892978969004987,
+        "stdev_seconds": 0.0
+      },
+      "serial": {
+        "communicated_bytes": 0,
+        "mean_seconds": 0.00032012500014388934,
+        "samples_seconds": [
+          0.00032012500014388934
+        ],
+        "speedup": 1.0,
+        "stdev_seconds": 0.0
+      }
+    }
+  },
+  "run_kind": "debug",
+  "scaled_work_stealing": {
+    "1": {
+      "scaled_efficiency": 0.11317939000072916,
+      "scaled_speedup": 0.11317939000072916,
+      "serial": {
+        "mean_seconds": 0.030770707999636215,
+        "samples_seconds": [
+          0.030770707999636215
+        ],
+        "stdev_seconds": 0.0
+      },
+      "tasks": 6,
+      "work_stealing": {
+        "mean_seconds": 0.27187554199963415,
+        "samples_seconds": [
+          0.27187554199963415
+        ],
+        "stdev_seconds": 0.0
+      }
+    },
+    "2": {
+      "scaled_efficiency": 0.10882711616691887,
+      "scaled_speedup": 0.21765423233383774,
+      "serial": {
+        "mean_seconds": 0.06220983299999716,
+        "samples_seconds": [
+          0.06220983299999716
+        ],
+        "stdev_seconds": 0.0
+      },
+      "tasks": 12,
+      "work_stealing": {
+        "mean_seconds": 0.28581954199989923,
+        "samples_seconds": [
+          0.28581954199989923
+        ],
+        "stdev_seconds": 0.0
+      }
+    }
+  },
+  "submodular": {
+    "axioms": {
+      "diminishing_comparisons": 5103,
+      "diminishing_returns": true,
+      "monotone": true,
+      "nonnegative": true,
+      "normalized": true,
+      "subsets_checked": 128
+    },
+    "guarantee_conditions": "normalized, nonnegative, monotone submodular objective; cardinality budget; exact marginal-gain greedy",
+    "guarantee_threshold": 0.6321205588285577,
+    "instances": 3,
+    "mean_greedy_ratio": 0.9866666666666667,
+    "minimum_greedy_ratio": 0.96
+  }
+}

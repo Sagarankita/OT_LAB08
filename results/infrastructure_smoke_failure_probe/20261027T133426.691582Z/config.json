@@ -1,0 +1,1 @@
+{"experiment":"infrastructure_smoke_failure_probe","force_failure":true,"input_size":32,"repetitions":1,"run_kind":"failure_probe","seeds":[7],"solver_settings":{"purpose":"verify explicit runtime failure recording"},"timeout_seconds":10.0,"units":{"execution_seconds":"seconds","objective":"sum of squared values"}}

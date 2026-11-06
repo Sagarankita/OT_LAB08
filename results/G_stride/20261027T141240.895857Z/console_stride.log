@@ -1,0 +1,24 @@
+
+xv6 kernel is booting
+
+init: starting sh
+$ schedbench cpu
+BENCH_BEGIN workload=cpu
+BENCH_RESULT workload=cpu role=0 weight=1 elapsed=6 response=-1 ticks=3 dispatches=4 checksum=-3229811510457175791
+BENCH_RESULT workload=cpu role=1 weight=3 elapsed=3 response=-1 ticks=1 dispatches=2 checksum=-5196870250767189742
+BENCH_RESULT workload=cpu role=2 weight=6 elapsed=3 response=-1 ticks=2 dispatches=3 checksum=-7163928991077203693
+BENCH_END workload=cpu
+schedbench mixed
+$ BENCH_BEGIN workload=mixed
+BENCH_RESULT workload=mixed role=0 weight=1 elapsed=2 response=-1 ticks=2 dispatches=3 checksum=4901010943231144233
+BENCH_RESULT workload=mixed role=1 weight=8 elapsed=5 response=-1 ticks=0 dispatches=6 checksum=8508908117862800618
+BENCH_END workload=mixed
+schedbench latency
+$ BENCH_BEGIN workload=latency
+BENCH_RESULT workload=latency role=0 weight=1 elapsed=6 response=-1 ticks=4 dispatches=5 checksum=1167552501296911834
+BENCH_RESULT workload=latency role=1 weight=1 elapsed=4 response=-1 ticks=2 dispatches=3 checksum=-7684996909240311333
+BENCH_RESULT workload=latency role=2 weight=10 elapsed=3 response=3 ticks=0 dispatches=1 checksum=-8902622536515382365
+BENCH_END workload=latency
+echo TRACK_G_STRIDE_DONE
+$ TRACK_G_STRIDE_DONE
+qemu-system-riscv64: terminating on signal 15 from pid 58251 (<unknown process>)

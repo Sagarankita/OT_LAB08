@@ -1,0 +1,5 @@
+riscv64-elf-gcc -march=rv64gc -g -ffile-prefix-map=/Users/ankitasagar/Desktop/OT LAB8/vendor/xv6-riscv-baseline=. -c -o kernel/entry.o kernel/entry.S
+cc1: error: invalid argument '/Users/ankitasagar/Desktop/OT' to '-ffile-prefix-map'
+cc1: error: invalid argument '/Users/ankitasagar/Desktop/OT' to '-ffile-prefix-map'
+cc1: error: invalid argument '/Users/ankitasagar/Desktop/OT' to '-ffile-prefix-map'
+make: *** [kernel/entry.o] Error 1

@@ -1,0 +1,1 @@
+[{"absolute_error":0.06164966641328817,"category":"noisy_objective","final_objective":0.001900340684434856,"final_x":3.061649666413288,"iterations":200,"seed":11,"strategy":"constant_step"},{"absolute_error":0.002166923586226943,"category":"noisy_objective","final_objective":2.347778914273318e-06,"final_x":3.002166923586227,"iterations":200,"seed":11,"strategy":"decaying_step"}]

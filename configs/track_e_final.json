@@ -1,0 +1,25 @@
+{
+  "experiment": "track_e_scheduling",
+  "run_kind": "final",
+  "seeds": [71, 82, 93, 104, 115],
+  "repetitions": 3,
+  "warmup_repetitions": 1,
+  "input_size": 24,
+  "timeout_seconds": 180,
+  "units": {
+    "execution_seconds": "seconds",
+    "makespan": "integer time units",
+    "gap_percent": "percent"
+  },
+  "solver_settings": {
+    "methods": ["fixed_order", "critical_path", "disjunctive_ilp"],
+    "workers": 3,
+    "small_size": 7,
+    "scaling_sizes": [7, 14, 24],
+    "edge_probability": 0.18,
+    "max_predecessors": 3,
+    "duration_range": [1, 9],
+    "release_range": [0, 6],
+    "ilp_time_limit_seconds": 1.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "run_directory": "results/G_baseline/20261027T132857.135570Z",
+  "upstream_commit": "e93dabeb98431235c6e1a101cb96c73c923fdbc4",
+  "guest_tests_passed": 74,
+  "original_source_files_verified": 82,
+  "emulated_cpus": 1,
+  "memory_mib": 128,
+  "usertests_seconds": 145.70272641600604,
+  "independent_audit_passed": true,
+  "scope": "unmodified baseline only; no optimization improvement measured"
+}

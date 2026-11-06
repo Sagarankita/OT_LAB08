@@ -1,0 +1,16 @@
+{
+  "run_kind": "debug",
+  "seed": 20261028,
+  "worker_counts": [1, 2],
+  "repetitions": 1,
+  "warmups": 0,
+  "fixed_task_count": 12,
+  "scaled_tasks_per_worker": 6,
+  "work_scale": 0.2,
+  "submodular_instances": 3,
+  "data_size": 20000,
+  "model_rows": 400,
+  "model_features": 32,
+  "pipeline_batches": 4,
+  "pipeline_batch_size": 1000
+}

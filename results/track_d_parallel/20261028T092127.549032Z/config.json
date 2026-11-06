@@ -1,0 +1,20 @@
+{
+  "data_size": 300000,
+  "fixed_task_count": 32,
+  "model_features": 128,
+  "model_rows": 3000,
+  "pipeline_batch_size": 8000,
+  "pipeline_batches": 12,
+  "repetitions": 3,
+  "run_kind": "final",
+  "scaled_tasks_per_worker": 8,
+  "seed": 20261028,
+  "submodular_instances": 10,
+  "warmups": 1,
+  "work_scale": 1.0,
+  "worker_counts": [
+    1,
+    2,
+    4
+  ]
+}

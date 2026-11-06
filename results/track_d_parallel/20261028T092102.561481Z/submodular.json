@@ -1,0 +1,66 @@
+{
+  "axioms": {
+    "diminishing_comparisons": 5103,
+    "diminishing_returns": true,
+    "monotone": true,
+    "nonnegative": true,
+    "normalized": true,
+    "subsets_checked": 128
+  },
+  "instances": [
+    {
+      "exact_selected": [
+        0,
+        2,
+        8,
+        11
+      ],
+      "exact_value": 25,
+      "greedy_selected": [
+        3,
+        0,
+        9,
+        11
+      ],
+      "greedy_value": 24,
+      "ratio": 0.96,
+      "seed": 20261029
+    },
+    {
+      "exact_selected": [
+        1,
+        2,
+        6,
+        8
+      ],
+      "exact_value": 32,
+      "greedy_selected": [
+        1,
+        6,
+        8,
+        2
+      ],
+      "greedy_value": 32,
+      "ratio": 1.0,
+      "seed": 20261030
+    },
+    {
+      "exact_selected": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "exact_value": 31,
+      "greedy_selected": [
+        0,
+        10,
+        4,
+        6
+      ],
+      "greedy_value": 31,
+      "ratio": 1.0,
+      "seed": 20261031
+    }
+  ]
+}

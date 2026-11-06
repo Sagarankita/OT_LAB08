@@ -1,0 +1,33 @@
+{
+  "client_sizes": [
+    20,
+    25,
+    30,
+    45
+  ],
+  "communication_local_steps": [
+    1,
+    3
+  ],
+  "communication_rounds": 3,
+  "dimensions": 6,
+  "fedavg_learning_rate": 0.2,
+  "gradnorm_alpha": 1.5,
+  "gradnorm_learning_rate": 0.025,
+  "multitask_epochs": 10,
+  "multitask_hidden": 6,
+  "multitask_learning_rate": 0.03,
+  "multitask_test_size": 80,
+  "multitask_train_size": 120,
+  "run_kind": "debug",
+  "same_compute_local_steps": [
+    1,
+    3
+  ],
+  "same_compute_total_steps": 6,
+  "seeds": [
+    3
+  ],
+  "test_size": 80,
+  "train_size": 120
+}

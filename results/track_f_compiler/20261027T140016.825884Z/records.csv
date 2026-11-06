@@ -1,0 +1,31 @@
+bytecode_size_bytes,compile_seconds,dynamic_instruction_count,equivalent,execution_seconds,output,pass_budget_cost,pass_sequence,pipeline,program_id,program_kind,reference_output,repetition,seed,static_instruction_count
+183,2.4417000531684607e-05,6,True,2.125001628883183e-06,"[14, -4]",0,,unoptimized,precedence,known,"[14, -4]",0,,6
+152,3.0540999432560056e-05,5,True,1.7499987734481692e-06,"[14, -4]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,precedence,known,"[14, -4]",0,,5
+172,3.162500070175156e-05,6,True,2.0000006770715117e-06,"[14, -4]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,precedence,known,"[14, -4]",0,,6
+183,1.9999999494757503e-05,6,True,1.957996573764831e-06,"[14, -4]",0,,unoptimized,precedence,known,"[14, -4]",1,,6
+152,2.849999873433262e-05,5,True,1.7499987734481692e-06,"[14, -4]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,precedence,known,"[14, -4]",1,,5
+172,2.9082999390084296e-05,6,True,1.6670019249431789e-06,"[14, -4]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,precedence,known,"[14, -4]",1,,6
+148,2.245799987576902e-05,6,True,1.791995600797236e-06,"[5, 12]",0,,unoptimized,reassignment,known,"[5, 12]",0,,6
+116,2.9833005100954324e-05,4,True,1.3750031939707696e-06,"[5, 12]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,reassignment,known,"[5, 12]",0,,4
+93,3.087500226683915e-05,4,True,1.0000003385357559e-06,"[5, 12]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,reassignment,known,"[5, 12]",0,,4
+148,2.2915999579709023e-05,6,True,1.4999968698248267e-06,"[5, 12]",0,,unoptimized,reassignment,known,"[5, 12]",1,,6
+116,2.8875001589767635e-05,4,True,1.3750031939707696e-06,"[5, 12]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,reassignment,known,"[5, 12]",1,,4
+93,2.9749993700534105e-05,4,True,8.749993867240846e-07,"[5, 12]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,reassignment,known,"[5, 12]",1,,4
+166,2.7417001547291875e-05,7,True,2.1669984562322497e-06,"[5, 11]",0,,unoptimized,cse_invalidation,known,"[5, 11]",0,,7
+116,3.3708995033521205e-05,4,True,1.334003172814846e-06,"[5, 11]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,cse_invalidation,known,"[5, 11]",0,,4
+93,3.345799632370472e-05,4,True,9.159994078800082e-07,"[5, 11]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,cse_invalidation,known,"[5, 11]",0,,4
+166,2.55839986493811e-05,7,True,1.5839978004805744e-06,"[5, 11]",0,,unoptimized,cse_invalidation,known,"[5, 11]",1,,7
+116,3.3042000723071396e-05,4,True,1.3329990906640887e-06,"[5, 11]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,cse_invalidation,known,"[5, 11]",1,,4
+93,3.6624995118472725e-05,4,True,8.749993867240846e-07,"[5, 11]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,cse_invalidation,known,"[5, 11]",1,,4
+133,1.983399852178991e-05,5,True,1.5840050764381886e-06,"[5, 5]",0,,unoptimized,dead_side_effect,known,"[5, 5]",0,,5
+57,2.4291002773679793e-05,2,True,6.67001586407423e-07,"[5, 5]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,dead_side_effect,known,"[5, 5]",0,,2
+74,2.6375004381407052e-05,3,True,1.0419971658848226e-06,"[5, 5]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,dead_side_effect,known,"[5, 5]",0,,3
+133,1.9874998542945832e-05,5,True,1.4160032151266932e-06,"[5, 5]",0,,unoptimized,dead_side_effect,known,"[5, 5]",1,,5
+57,2.300000051036477e-05,2,True,6.67001586407423e-07,"[5, 5]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,dead_side_effect,known,"[5, 5]",1,,2
+74,2.600000152597204e-05,3,True,8.330025593750179e-07,"[5, 5]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,dead_side_effect,known,"[5, 5]",1,,3
+1395,0.00020783300715265796,44,True,1.2042000889778137e-05,"[18, 18, 18, 20, 20, 20, 22, 22]",0,,unoptimized,generated_301,generated,"[18, 18, 18, 20, 20, 20, 22, 22]",0,301,44
+978,0.0003079170055571012,34,True,8.33300146041438e-06,"[18, 18, 18, 20, 20, 20, 22, 22]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,generated_301,generated,"[18, 18, 18, 20, 20, 20, 22, 22]",0,301,34
+954,0.00033441599953221157,34,True,7.208000170066953e-06,"[18, 18, 18, 20, 20, 20, 22, 22]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,generated_301,generated,"[18, 18, 18, 20, 20, 20, 22, 22]",0,301,34
+1395,0.00017337499593850225,44,True,1.1791998986154795e-05,"[18, 18, 18, 20, 20, 20, 22, 22]",0,,unoptimized,generated_301,generated,"[18, 18, 18, 20, 20, 20, 22, 22]",1,301,44
+978,0.00029554199863923714,34,True,7.875001756474376e-06,"[18, 18, 18, 20, 20, 20, 22, 22]",4,constant_folding;constant_propagation;dead_code_elimination;common_subexpression_elimination,fixed_order,generated_301,generated,"[18, 18, 18, 20, 20, 20, 22, 22]",1,301,34
+954,0.00037016699934611097,34,True,7.042006473056972e-06,"[18, 18, 18, 20, 20, 20, 22, 22]",4,common_subexpression_elimination;constant_propagation;constant_folding;dead_code_elimination,dp_order,generated_301,generated,"[18, 18, 18, 20, 20, 20, 22, 22]",1,301,34

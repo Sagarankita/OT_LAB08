@@ -1,0 +1,46 @@
+{
+  "artifacts": {
+    "analysis.json": {
+      "sha256": "d1f707bb7d0a17f1cbca77b5b2694bd2b8e82a4f098b9bf9adfb54b8a15a5a53"
+    },
+    "console_baseline.log": {
+      "sha256": "496e4e4e470ae2b0d5bd44a0d6181c0a17d527fe1771dda2e89691cde6e0c55d"
+    },
+    "console_stride.log": {
+      "sha256": "873ba4b38b713dfe72b8f3e4737f0f7f8fa63057af4e9470753e83ba6e2b1be7"
+    },
+    "records.json": {
+      "sha256": "2e7b63e736f57febe37ad7147ae73f91a820444f5f2f632ca66dc1bb37fc5101"
+    },
+    "scheduler_comparison.png": {
+      "sha256": "be7ec79fa2f87763df050636a151c1654b22361f05f2fcd08888b0ab2a70d817"
+    },
+    "summary.json": {
+      "sha256": "c6d5a9bdef2420238d15b1c983234f47c60a35642987e107aaf3396e786eb73a"
+    },
+    "xv6-stride.patch": {
+      "sha256": "1fbce51117db463ca18b9ab4f78e96d44ddfd0c36dace2be89e346c26474fc00"
+    }
+  },
+  "emulated_cpus": 1,
+  "finished_at_utc": "2026-10-27T14:15:43.714284+00:00",
+  "host": "macOS-26.5.2-arm64-arm-64bit",
+  "memory_mib": 128,
+  "provenance": {
+    "git_managed_by": "user",
+    "git_revision": "pending user Git work"
+  },
+  "repetitions": 3,
+  "run_kind": "final",
+  "started_at_utc": "2026-10-27T14:13:00.636992+00:00",
+  "status": "completed",
+  "step": "07",
+  "timer_resolution": "one xv6 tick; timer programmed for ~0.1 seconds",
+  "tools": {
+    "diff": "Apple diff (based on FreeBSD diff)",
+    "make": "GNU Make 3.81",
+    "qemu-system-riscv64": "QEMU emulator version 11.1.2",
+    "riscv64-elf-gcc": "riscv64-elf-gcc (GCC) 16.2.0"
+  },
+  "upstream_commit": "e93dabeb98431235c6e1a101cb96c73c923fdbc4"
+}

@@ -1,0 +1,10 @@
+{
+  "run_directory": "results/G_stride/20261027T141300.613368Z",
+  "run_kind": "final",
+  "raw_records": 48,
+  "workloads": 3,
+  "repetitions": 3,
+  "upstream_usertests": 74,
+  "independent_verification_checks": 22,
+  "independent_verification_passed": true
+}

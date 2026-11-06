@@ -1,0 +1,8 @@
+# Direct dependencies; exact resolved versions in requirements-lock.txt after installation.
+numpy
+scipy
+matplotlib
+pytest
+torch
+pennylane
+coverage

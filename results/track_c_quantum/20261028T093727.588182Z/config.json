@@ -1,0 +1,32 @@
+{
+  "gradient_depths": [
+    1,
+    3,
+    5
+  ],
+  "gradient_qubits": [
+    2,
+    4,
+    6
+  ],
+  "gradient_seeds": 20,
+  "noise_probability": 0.02,
+  "qaoa_depth": 3,
+  "qaoa_learning_rate": 0.025,
+  "qaoa_steps": 200,
+  "qnn_epochs": 30,
+  "run_kind": "final",
+  "seeds": [
+    3,
+    11,
+    29
+  ],
+  "shot_budgets": [
+    100,
+    1000,
+    5000
+  ],
+  "vqe_parameter_shift_steps": 80,
+  "vqe_qng_steps": 40,
+  "vqe_spsa_steps": 200
+}

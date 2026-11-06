@@ -1,0 +1,12 @@
+{
+  "experiment": "invalid_configuration_probe",
+  "run_kind": "final",
+  "seeds": [],
+  "repetitions": 0,
+  "warmup_repetitions": 0,
+  "input_size": -1,
+  "timeout_seconds": 0,
+  "units": {},
+  "solver_settings": {}
+}
+

@@ -1,0 +1,183 @@
+{
+  "metric_units": "xv6 timer ticks (~0.1 s each)",
+  "lower_elapsed_and_response_are_better": true,
+  "metrics": {
+    "cpu_weight_1_elapsed": {
+      "baseline": {
+        "values": [
+          5,
+          5,
+          5
+        ],
+        "mean": 5.0,
+        "sample_std": 0.0
+      },
+      "stride": {
+        "values": [
+          6,
+          6,
+          6
+        ],
+        "mean": 6.0,
+        "sample_std": 0.0
+      },
+      "change_percent": 20.0
+    },
+    "cpu_weight_3_elapsed": {
+      "baseline": {
+        "values": [
+          3,
+          3,
+          3
+        ],
+        "mean": 3.0,
+        "sample_std": 0.0
+      },
+      "stride": {
+        "values": [
+          3,
+          3,
+          3
+        ],
+        "mean": 3.0,
+        "sample_std": 0.0
+      },
+      "change_percent": 0.0
+    },
+    "cpu_weight_6_elapsed": {
+      "baseline": {
+        "values": [
+          4,
+          4,
+          4
+        ],
+        "mean": 4.0,
+        "sample_std": 0.0
+      },
+      "stride": {
+        "values": [
+          3,
+          3,
+          3
+        ],
+        "mean": 3.0,
+        "sample_std": 0.0
+      },
+      "change_percent": -25.0
+    },
+    "mixed_background_elapsed": {
+      "baseline": {
+        "values": [
+          2,
+          2,
+          2
+        ],
+        "mean": 2.0,
+        "sample_std": 0.0
+      },
+      "stride": {
+        "values": [
+          2,
+          2,
+          2
+        ],
+        "mean": 2.0,
+        "sample_std": 0.0
+      },
+      "change_percent": 0.0
+    },
+    "mixed_interactive_elapsed": {
+      "baseline": {
+        "values": [
+          5,
+          5,
+          5
+        ],
+        "mean": 5.0,
+        "sample_std": 0.0
+      },
+      "stride": {
+        "values": [
+          5,
+          5,
+          5
+        ],
+        "mean": 5.0,
+        "sample_std": 0.0
+      },
+      "change_percent": 0.0
+    },
+    "latency_target_response": {
+      "baseline": {
+        "values": [
+          2,
+          2,
+          2
+        ],
+        "mean": 2.0,
+        "sample_std": 0.0
+      },
+      "stride": {
+        "values": [
+          3,
+          3,
+          3
+        ],
+        "mean": 3.0,
+        "sample_std": 0.0
+      },
+      "change_percent": 50.0
+    },
+    "latency_target_elapsed": {
+      "baseline": {
+        "values": [
+          2,
+          2,
+          2
+        ],
+        "mean": 2.0,
+        "sample_std": 0.0
+      },
+      "stride": {
+        "values": [
+          3,
+          3,
+          3
+        ],
+        "mean": 3.0,
+        "sample_std": 0.0
+      },
+      "change_percent": 50.0
+    }
+  },
+  "stride_cpu_run_ticks": {
+    "0": {
+      "values": [
+        3,
+        3,
+        3
+      ],
+      "mean": 3.0,
+      "sample_std": 0.0
+    },
+    "1": {
+      "values": [
+        1,
+        1,
+        1
+      ],
+      "mean": 1.0,
+      "sample_std": 0.0
+    },
+    "2": {
+      "values": [
+        2,
+        2,
+        2
+      ],
+      "mean": 2.0,
+      "sample_std": 0.0
+    }
+  },
+  "interpretation": "Weight-6 CPU completion improved while weight-1 completion worsened, but the mixed workload tied and latency response regressed. Tick granularity and short fixed-work tasks do not establish long-run proportional-share accuracy."
+}

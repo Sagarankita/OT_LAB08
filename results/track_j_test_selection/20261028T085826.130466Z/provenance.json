@@ -1,0 +1,16 @@
+{
+  "archive_sha256": "9fddd5403be01a94b204faadcff459ec3568cf110265d3c54323e1e866ad29d3",
+  "license": "MIT",
+  "license_file": "vendor/track_j/more_itertools-10.7.0/LICENSE",
+  "meaningful_nonblank_noncomment_source_lines": 4728,
+  "physical_source_lines": 6353,
+  "production_python_files": [
+    "more_itertools/__init__.py",
+    "more_itertools/more.py",
+    "more_itertools/recipes.py"
+  ],
+  "project": "more-itertools",
+  "source_distribution": "https://files.pythonhosted.org/packages/source/m/more-itertools/more_itertools-10.7.0.tar.gz",
+  "upstream": "https://github.com/more-itertools/more-itertools",
+  "version": "10.7.0"
+}

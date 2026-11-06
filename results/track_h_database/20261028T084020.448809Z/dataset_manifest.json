@@ -1,0 +1,1 @@
+{"base_database_bytes":319488,"counts":{"customers":1000,"orders":10000,"products":200},"generation_formula":"deterministic modular arithmetic in create_dataset","generation_seconds":0.007299416000023484,"page_size":4096,"query_count":6,"seed":1701,"sqlite_version":"3.53.0"}

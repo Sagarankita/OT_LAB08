@@ -1,0 +1,170 @@
+{
+  "environment": {
+    "execution": "local ideal and noisy simulators only; no real quantum hardware",
+    "pennylane": "0.45.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit",
+    "python": "3.11.15"
+  },
+  "gradient_variance": [
+    {
+      "circuit_executions": 40,
+      "depth": 1,
+      "gradient_mean": -0.3033714437196803,
+      "gradient_variance": 0.4851499305532093,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 2,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 3,
+      "gradient_mean": -0.06699024319209147,
+      "gradient_variance": 0.23805693534707398,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 2,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 5,
+      "gradient_mean": 0.007803022590557683,
+      "gradient_variance": 0.17032936419396172,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 2,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 1,
+      "gradient_mean": 0.09013167448967492,
+      "gradient_variance": 0.258086366516136,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 4,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 3,
+      "gradient_mean": -0.05314788921599854,
+      "gradient_variance": 0.061636514068106045,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 4,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 5,
+      "gradient_mean": -0.01616333720406622,
+      "gradient_variance": 0.024846122582636743,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 4,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 1,
+      "gradient_mean": 0.013547968057613921,
+      "gradient_variance": 0.14124998282832066,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 6,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 3,
+      "gradient_mean": -0.011623070271231179,
+      "gradient_variance": 0.007184486395818377,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 6,
+      "seeds": 20
+    },
+    {
+      "circuit_executions": 40,
+      "depth": 5,
+      "gradient_mean": -0.017396159844296526,
+      "gradient_variance": 0.00698929797156563,
+      "observable": "global tensor product of Pauli-Z",
+      "qubits": 6,
+      "seeds": 20
+    }
+  ],
+  "qaoa": {
+    "best_analytic_energy": -10.307784355725314,
+    "best_seed": 3,
+    "noise_probability": 0.02,
+    "noisy_mean_energy": -3.5109333333333317,
+    "noisy_mean_feasible_rate": 0.8530666666666666,
+    "noisy_optimum_seen_all_seeds": true,
+    "shot_summary": [
+      {
+        "energy_stdev": 1.6978810323459064,
+        "mean_energy": -11.290000000000001,
+        "mean_feasible_rate": 0.97,
+        "optimum_seen_all_seeds": true,
+        "shots": 100
+      },
+      {
+        "energy_stdev": 0.4883997679497139,
+        "mean_energy": -10.553333333333333,
+        "mean_feasible_rate": 0.971,
+        "optimum_seen_all_seeds": true,
+        "shots": 1000
+      },
+      {
+        "energy_stdev": 0.13309264943389293,
+        "mean_energy": -10.549933333333334,
+        "mean_feasible_rate": 0.9661333333333333,
+        "optimum_seen_all_seeds": true,
+        "shots": 5000
+      }
+    ]
+  },
+  "qnn": {
+    "mean_circuit_executions": 4344,
+    "mean_test_accuracy": 0.9583333333333334,
+    "mean_train_accuracy": 0.8541666666666666,
+    "parameter_count": 4
+  },
+  "qubo": {
+    "classical_optimum_bits": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "classical_optimum_energy": -18.0,
+    "maximum_basis_energy_error": 0.0,
+    "states_checked": 32
+  },
+  "run_kind": "final",
+  "vqe": {
+    "exact_ground_energy": -1.5628499608087782,
+    "optimizers": [
+      {
+        "circuit_executions": 1442,
+        "energy": -1.562247515403108,
+        "error_to_exact": 0.0006024454056703377,
+        "iterations": 80,
+        "method": "parameter_shift_adam"
+      },
+      {
+        "circuit_executions": 802,
+        "energy": -1.5625274972544134,
+        "error_to_exact": 0.0003224635543648269,
+        "expected_two_point_calls": 401,
+        "iterations": 200,
+        "method": "spsa"
+      },
+      {
+        "circuit_executions": 922,
+        "energy": -1.5627548459189677,
+        "error_to_exact": 9.51148898105103e-05,
+        "iterations": 40,
+        "method": "quantum_natural_gradient",
+        "metric": "block-diagonal Fubini-Study metric with 1e-3 diagonal regularization"
+      }
+    ],
+    "parameter_shift_absolute_error": 3.6158520622109336e-11
+  }
+}

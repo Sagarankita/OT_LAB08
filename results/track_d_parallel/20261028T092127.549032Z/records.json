@@ -1,0 +1,532 @@
+[
+  {
+    "exact_selected": [
+      0,
+      2,
+      8,
+      11
+    ],
+    "exact_value": 25,
+    "experiment": "submodular",
+    "greedy_selected": [
+      3,
+      0,
+      9,
+      11
+    ],
+    "greedy_value": 24,
+    "method": "greedy",
+    "ratio": 0.96,
+    "seed": 20261029
+  },
+  {
+    "exact_selected": [
+      1,
+      2,
+      6,
+      8
+    ],
+    "exact_value": 32,
+    "experiment": "submodular",
+    "greedy_selected": [
+      1,
+      6,
+      8,
+      2
+    ],
+    "greedy_value": 32,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261030
+  },
+  {
+    "exact_selected": [
+      0,
+      3,
+      4,
+      6
+    ],
+    "exact_value": 31,
+    "experiment": "submodular",
+    "greedy_selected": [
+      0,
+      10,
+      4,
+      6
+    ],
+    "greedy_value": 31,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261031
+  },
+  {
+    "exact_selected": [
+      0,
+      1,
+      4,
+      7
+    ],
+    "exact_value": 31,
+    "experiment": "submodular",
+    "greedy_selected": [
+      0,
+      1,
+      4,
+      7
+    ],
+    "greedy_value": 31,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261032
+  },
+  {
+    "exact_selected": [
+      1,
+      5,
+      7,
+      10
+    ],
+    "exact_value": 31,
+    "experiment": "submodular",
+    "greedy_selected": [
+      5,
+      10,
+      1,
+      7
+    ],
+    "greedy_value": 31,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261033
+  },
+  {
+    "exact_selected": [
+      1,
+      4,
+      7,
+      8
+    ],
+    "exact_value": 30,
+    "experiment": "submodular",
+    "greedy_selected": [
+      4,
+      7,
+      1,
+      8
+    ],
+    "greedy_value": 30,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261034
+  },
+  {
+    "exact_selected": [
+      4,
+      6,
+      8,
+      9
+    ],
+    "exact_value": 30,
+    "experiment": "submodular",
+    "greedy_selected": [
+      6,
+      4,
+      9,
+      8
+    ],
+    "greedy_value": 30,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261035
+  },
+  {
+    "exact_selected": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "exact_value": 29,
+    "experiment": "submodular",
+    "greedy_selected": [
+      2,
+      5,
+      6,
+      1
+    ],
+    "greedy_value": 29,
+    "method": "greedy",
+    "ratio": 1.0,
+    "seed": 20261036
+  },
+  {
+    "exact_selected": [
+      0,
+      2,
+      4,
+      5
+    ],
+    "exact_value": 32,
+    "experiment": "submodular",
+    "greedy_selected": [
+      1,
+      6,
+      11,
+      5
+    ],
+    "greedy_value": 30,
+    "method": "greedy",
+    "ratio": 0.9375,
+    "seed": 20261037
+  },
+  {
+    "exact_selected": [
+      2,
+      3,
+      7,
+      11
+    ],
+    "exact_value": 31,
+    "experiment": "submodular",
+    "greedy_selected": [
+      0,
+      2,
+      3,
+      7
+    ],
+    "greedy_value": 30,
+    "method": "greedy",
+    "ratio": 0.967741935483871,
+    "seed": 20261038
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.8210447500000555,
+    "experiment": "fixed_scheduling",
+    "method": "serial",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.0,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.8201710829998774,
+    "experiment": "fixed_scheduling",
+    "method": "serial",
+    "remote_tasks": 0,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.0,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.8182147920001626,
+    "experiment": "fixed_scheduling",
+    "method": "serial",
+    "remote_tasks": 0,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.0,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.0835526670002764,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.2327250000003005,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.0705748750001476,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 0,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.22902520800016646,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.0798890420001044,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 0,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.2282393340001363,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6825274579996403,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 16,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.25669095799958086,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6859728330000507,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 16,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.24613408300001538,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6683229159998518,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 16,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.24726754099992831,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.5208231250003337,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 24,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.28532137500042154,
+    "steals": 0,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.5237158750001072,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 24,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.28342849999989994,
+    "steals": 0,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.5277722920000087,
+    "experiment": "fixed_scheduling",
+    "method": "static",
+    "remote_tasks": 24,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.2910619589997623,
+    "steals": 0,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.102695957999913,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.23500612499992712,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.060904124999979,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 0,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.23450362499988842,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.0675937500000146,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 0,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.2344366249999439,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6774267920000057,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 18,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.25373720900006447,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6835815839999668,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 14,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.2502762089998214,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6780078750002758,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 14,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.25108187500018175,
+    "steals": 0,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.5240531660001579,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 24,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.27223058300023695,
+    "steals": 0,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.5250670840000566,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 25,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.27688462500009337,
+    "steals": 0,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.522293666999758,
+    "experiment": "fixed_scheduling",
+    "method": "dynamic",
+    "remote_tasks": 28,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.27398325099966314,
+    "steals": 0,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.073870917000022,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 0,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.24209995899991554,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.0811727909999718,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 0,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.24249649900002623,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 1.0787105419999534,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 0,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.24442979200011905,
+    "steals": 0,
+    "workers": 1
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.686866375000136,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 3,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.25415412500024104,
+    "steals": 3,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6922372920002999,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 4,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.26791645899993455,
+    "steals": 4,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.6850009580002734,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 3,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.25428862500029936,
+    "steals": 3,
+    "workers": 2
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.5442804170002091,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 9,
+    "repetition": 0,
+    "residual_overhead_seconds": 0.27505037500031904,
+    "steals": 9,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.541612625000198,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 9,
+    "repetition": 1,
+    "residual_overhead_seconds": 0.28370116700034487,
+    "steals": 9,
+    "workers": 4
+  },
+  {
+    "checksum": 17160980260972574,
+    "elapsed_seconds": 0.5333428750000166,
+    "experiment": "fixed_scheduling",
+    "method": "work_stealing",
+    "remote_tasks": 9,
+    "repetition": 2,
+    "residual_overhead_seconds": 0.2702658750004048,
+    "steals": 9,
+    "workers": 4
+  }
+]

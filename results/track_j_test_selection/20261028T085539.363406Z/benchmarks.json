@@ -1,0 +1,34 @@
+{
+  "full": {
+    "mean_seconds": 7.026595291999911,
+    "measurement_reused_from": "full",
+    "samples_seconds": [
+      7.026595291999911
+    ],
+    "stdev_seconds": 0.0
+  },
+  "greedy": {
+    "mean_seconds": 5.454998374999832,
+    "measurement_reused_from": "greedy",
+    "samples_seconds": [
+      5.454998374999832
+    ],
+    "stdev_seconds": 0.0
+  },
+  "ilp": {
+    "mean_seconds": 5.35583512500034,
+    "measurement_reused_from": "ilp",
+    "samples_seconds": [
+      5.35583512500034
+    ],
+    "stdev_seconds": 0.0
+  },
+  "naive": {
+    "mean_seconds": 5.735340000000178,
+    "measurement_reused_from": "naive",
+    "samples_seconds": [
+      5.735340000000178
+    ],
+    "stdev_seconds": 0.0
+  }
+}

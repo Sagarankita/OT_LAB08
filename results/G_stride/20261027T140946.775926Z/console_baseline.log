@@ -1,0 +1,16 @@
+
+xv6 kernel is booting
+
+init: starting sh
+$ schedbench cpu
+BENCH_BEGIN workload=cpu
+BENCH_RESULT workload=cpu role=0 weight=1 elapsed=0 response=-1 ticks=-1 dispatches=-1 checksum=5675652888923206353
+BENCH_RESULT workload=cpu role=1 weight=3 elapsed=0 response=-1 ticks=-1 dispatches=-1 checksum=2834920467090163922
+BENCH_RESULT workload=cpu role=2 weight=6 elapsed=0 response=-1 ticks=-1 dispatches=-1 checksum=-5811954742878509
+BENCH_END workload=cschedbench mixed
+pu
+$ BENCH_BEGIN workload=mixed
+BENCH_RESULT workload=mixed_bg role=0 weight=1 elapsed=0 response=-1 ticks=-1 dispatches=-1 checksum=-8297367621891335191
+BENCH_RESULT workload=mixed_interactive role=1 weight=8 elapsed=5 response=-1 ticks=-1 dispatches=-1 checksum=3826769839482287194
+BENCH_END workload=mixed
+$ qemu-system-riscv64: terminating on signal 15 from pid 56297 (<unknown process>)

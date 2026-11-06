@@ -1,0 +1,628 @@
+{
+  "algorithms": {
+    "bernstein_vazirani": {
+      "classical_deterministic_queries": 4,
+      "counts": {
+        "1011": 1000
+      },
+      "implementation": "direct CNOT oracle circuit",
+      "oracle_queries": 1,
+      "recovered_secret": "1011",
+      "resources": {
+        "depth": 6,
+        "gate_types": {
+          "CNOT": 3,
+          "Hadamard": 9,
+          "PauliX": 1
+        },
+        "num_gates": 13,
+        "num_wires": 5
+      },
+      "secret": [
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    "deutsch_jozsa": {
+      "balanced_classified": true,
+      "balanced_counts": {
+        "111": 1000
+      },
+      "constant_classified": true,
+      "constant_counts": {
+        "000": 1000
+      },
+      "implementation": "direct circuit and parity oracle",
+      "oracle_queries": 1,
+      "resources": {
+        "depth": 6,
+        "gate_types": {
+          "CNOT": 3,
+          "Hadamard": 7,
+          "PauliX": 1
+        },
+        "num_gates": 11,
+        "num_wires": 4
+      }
+    },
+    "grover": {
+      "classical_expected_queries_uniform_target": 4.5,
+      "classical_queries_for_fixed_target": 6,
+      "classical_wall_seconds": {
+        "mean": 2.616998244775459e-07,
+        "stdev": 1.938388496976053e-07
+      },
+      "classical_worst_case_queries": 8,
+      "counts": {
+        "000": 9,
+        "001": 7,
+        "010": 6,
+        "011": 8,
+        "100": 5,
+        "101": 955,
+        "110": 4,
+        "111": 6
+      },
+      "implementation": "direct phase oracle and diffusion circuit",
+      "iterations_and_oracle_queries": 2,
+      "marked": [
+        1,
+        0,
+        1
+      ],
+      "quantum_simulator_wall_seconds": {
+        "mean": 0.0011371265999332537,
+        "stdev": 0.00013136368178582613
+      },
+      "resources": {
+        "depth": 21,
+        "gate_types": {
+          "Hadamard": 23,
+          "MultiControlledX": 4,
+          "PauliX": 16
+        },
+        "num_gates": 43,
+        "num_wires": 3
+      },
+      "success_probability": 0.945312499999996
+    },
+    "qft": {
+      "analytic_state_fidelity": 1.0,
+      "input": "101",
+      "resources": {
+        "depth": 2,
+        "gate_types": {
+          "BasisState": 1,
+          "QFT": 1
+        },
+        "num_gates": 2,
+        "num_wires": 3
+      },
+      "roundtrip_probability": 1.0,
+      "state_imag": [
+        0.0,
+        -0.25,
+        0.35355339059327373,
+        -0.25,
+        0.0,
+        0.25,
+        -0.35355339059327373,
+        0.25
+      ],
+      "state_real": [
+        0.35355339059327373,
+        -0.25,
+        0.0,
+        0.25,
+        -0.35355339059327373,
+        0.25,
+        0.0,
+        -0.25
+      ]
+    },
+    "qpe": {
+      "estimated_index": 3,
+      "estimated_phase": 0.375,
+      "probabilities": [
+        4.311637457899355e-33,
+        6.548161810916602e-33,
+        1.8797855851613064e-32,
+        0.9999999999999996,
+        1.9150288500661024e-32,
+        6.98149604840373e-33,
+        1.917194259899863e-33,
+        2.5037089277034066e-33
+      ],
+      "resources": {
+        "depth": 2,
+        "gate_types": {
+          "PauliX": 1,
+          "QuantumPhaseEstimation": 1
+        },
+        "num_gates": 2,
+        "num_wires": 4
+      },
+      "success_probability": 0.9999999999999996,
+      "true_phase": 0.375
+    },
+    "quantum_annealing": {
+      "embedding_note": "real sparse-connectivity annealers may require chains of physical qubits; chain strength and broken-chain decoding add overhead",
+      "ground_bitstrings": [
+        "010",
+        "101"
+      ],
+      "ground_energy": -2,
+      "hardware": "local gate-model simulation, not annealing hardware",
+      "problem": "three-spin antiferromagnetic Ising chain",
+      "runs": [
+        {
+          "circuit_model": "closed-system time-dependent unitary evolution with first-order Trotterization",
+          "expected_problem_energy": -0.1536915895023584,
+          "ground_success_probability": 0.2890052368145549,
+          "probabilities": [
+            0.10607972103168786,
+            0.12470883028049456,
+            0.14450261840727746,
+            0.12470883028049434,
+            0.12470883028049434,
+            0.14450261840727746,
+            0.12470883028049456,
+            0.10607972103168786
+          ],
+          "probability_sum": 0.9999999999999084,
+          "resources": {
+            "depth": 81,
+            "gate_types": {
+              "ApproxTimeEvolution": 80,
+              "Hadamard": 3
+            },
+            "num_gates": 83,
+            "num_wires": 3
+          },
+          "total_time": 0.5,
+          "trotter_steps": 80
+        },
+        {
+          "circuit_model": "closed-system time-dependent unitary evolution with first-order Trotterization",
+          "expected_problem_energy": -1.2248771320166643,
+          "ground_success_probability": 0.6263044803217316,
+          "probabilities": [
+            0.006932957156699773,
+            0.089957401341196,
+            0.3131522401608658,
+            0.08995740134119615,
+            0.08995740134119615,
+            0.3131522401608658,
+            0.089957401341196,
+            0.006932957156699773
+          ],
+          "probability_sum": 0.9999999999999154,
+          "resources": {
+            "depth": 81,
+            "gate_types": {
+              "ApproxTimeEvolution": 80,
+              "Hadamard": 3
+            },
+            "num_gates": 83,
+            "num_wires": 3
+          },
+          "total_time": 2.0,
+          "trotter_steps": 80
+        },
+        {
+          "circuit_model": "closed-system time-dependent unitary evolution with first-order Trotterization",
+          "expected_problem_energy": -1.9888990531352542,
+          "ground_success_probability": 0.9945865764672898,
+          "probabilities": [
+            6.852494983133987e-05,
+            0.0013190934082411272,
+            0.4972932882336449,
+            0.0013190934082411444,
+            0.0013190934082411444,
+            0.4972932882336449,
+            0.0013190934082411272,
+            6.852494983133987e-05
+          ],
+          "probability_sum": 0.9999999999999168,
+          "resources": {
+            "depth": 81,
+            "gate_types": {
+              "ApproxTimeEvolution": 80,
+              "Hadamard": 3
+            },
+            "num_gates": 83,
+            "num_wires": 3
+          },
+          "total_time": 8.0,
+          "trotter_steps": 80
+        }
+      ]
+    },
+    "shor_compiled_15": {
+      "disclosure": "compiled fixed N=15, a=2 order-finding demonstration; not general factoring",
+      "factors": [
+        3,
+        5
+      ],
+      "inferred_orders": [
+        4
+      ],
+      "peak_indices": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "phase_probabilities": [
+        0.24999999999999983,
+        9.524731802613601e-35,
+        2.8347042094166922e-36,
+        4.5015348269204804e-35,
+        0.24999999999999983,
+        9.524731802613601e-35,
+        2.8347042094166922e-36,
+        4.5015348269204804e-35,
+        0.24999999999999983,
+        9.524731802613601e-35,
+        2.8347042094166922e-36,
+        4.5015348269204804e-35,
+        0.24999999999999983,
+        9.524731802613601e-35,
+        2.8347042094166922e-36,
+        4.5015348269204804e-35
+      ],
+      "resources": {
+        "depth": 2,
+        "gate_types": {
+          "BasisState": 1,
+          "QuantumPhaseEstimation": 1
+        },
+        "num_gates": 2,
+        "num_wires": 8
+      },
+      "successful_nonzero_phase_probability": 0.7499999999999996
+    }
+  },
+  "qml": {
+    "classical_mlp": [
+      {
+        "accuracies": {
+          "test": 1.0,
+          "train": 1.0,
+          "validation": 1.0
+        },
+        "circuit_executions": 0,
+        "epochs": 40,
+        "parameter_count": 13,
+        "runtime_seconds": 0.013064000002486864,
+        "seed": 3
+      },
+      {
+        "accuracies": {
+          "test": 1.0,
+          "train": 1.0,
+          "validation": 1.0
+        },
+        "circuit_executions": 0,
+        "epochs": 40,
+        "parameter_count": 13,
+        "runtime_seconds": 0.003762874999665655,
+        "seed": 11
+      },
+      {
+        "accuracies": {
+          "test": 1.0,
+          "train": 1.0,
+          "validation": 1.0
+        },
+        "circuit_executions": 0,
+        "epochs": 40,
+        "parameter_count": 13,
+        "runtime_seconds": 0.0036819170018134173,
+        "seed": 29
+      }
+    ],
+    "classical_rbf_kernel": {
+      "circuit_executions": 0,
+      "runtime_seconds": 0.0003071669998462312,
+      "selected_gamma": 0.1,
+      "selected_regularization": 0.001,
+      "test_accuracy": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0
+    },
+    "dataset": {
+      "preprocessing": "mean/std fitted on training split only, clipped then angle-scaled",
+      "samples": 40,
+      "test": [
+        24,
+        12,
+        7,
+        19,
+        1,
+        6,
+        27,
+        16
+      ],
+      "train": [
+        34,
+        31,
+        32,
+        23,
+        18,
+        9,
+        39,
+        29,
+        20,
+        0,
+        8,
+        5,
+        3,
+        33,
+        38,
+        11,
+        15,
+        30,
+        4,
+        21,
+        37,
+        28,
+        26,
+        36
+      ],
+      "validation": [
+        13,
+        10,
+        22,
+        2,
+        17,
+        35,
+        25,
+        14
+      ]
+    },
+    "noisy_quantum_classifier": [
+      {
+        "circuit_evaluations": 8,
+        "noise": "simulated layerwise depolarizing p=0.02",
+        "seed": 3,
+        "shots_per_prediction": 1000,
+        "test_accuracy": 1.0
+      },
+      {
+        "circuit_evaluations": 8,
+        "noise": "simulated layerwise depolarizing p=0.02",
+        "seed": 11,
+        "shots_per_prediction": 1000,
+        "test_accuracy": 1.0
+      },
+      {
+        "circuit_evaluations": 8,
+        "noise": "simulated layerwise depolarizing p=0.02",
+        "seed": 29,
+        "shots_per_prediction": 1000,
+        "test_accuracy": 1.0
+      }
+    ],
+    "quantum_kernel": {
+      "circuit_executions": 684,
+      "runtime_seconds": 0.39582579199850443,
+      "selected_regularization": 0.001,
+      "test_accuracy": 1.0,
+      "train_accuracy": 1.0,
+      "train_kernel_min_eigenvalue": -8.724989031687466e-16,
+      "validation_accuracy": 1.0
+    },
+    "variational_quantum_classifier": [
+      {
+        "accuracies": {
+          "test": 1.0,
+          "train": 1.0,
+          "validation": 1.0
+        },
+        "circuit_executions": 12520,
+        "epochs": 40,
+        "final_cost": 0.05332527090611123,
+        "history": [
+          1.4649025807316074,
+          1.3815566464506173,
+          1.2972439383406864,
+          1.216348636653789,
+          1.142236921360629,
+          1.0755925859435829,
+          1.013690030408122,
+          0.9508190272715625,
+          0.8801560917901762,
+          0.7965779678274073,
+          0.6988084724588882,
+          0.5898263808599674,
+          0.476066436049045,
+          0.3659697470490975,
+          0.26800421204185304,
+          0.18847654947485448,
+          0.12993720751250756,
+          0.09106208261013127,
+          0.06811391769801288,
+          0.05696101255047407,
+          0.05439618832075529,
+          0.05833836792798922,
+          0.06733026968635329,
+          0.07992739967461546,
+          0.09435718076344994,
+          0.10855833528552923,
+          0.1205045739960422,
+          0.12860730153573396,
+          0.13200364624610803,
+          0.13063649209926476,
+          0.12514123046592598,
+          0.1166124443737988,
+          0.10633222484715943,
+          0.0955261007413461,
+          0.08519024079978328,
+          0.07600888797600912,
+          0.06835564917778113,
+          0.06235215585012301,
+          0.0579495037288692,
+          0.05500315277080784
+        ],
+        "parameter_count": 6,
+        "runtime_seconds": 6.769816042000457,
+        "seed": 3,
+        "weights": [
+          [
+            0.7967091772183214,
+            -2.0265253496537734
+          ],
+          [
+            1.6093621381597856,
+            -1.6071242150713676
+          ],
+          [
+            1.2552723159700159,
+            -0.04311943261795318
+          ]
+        ]
+      },
+      {
+        "accuracies": {
+          "test": 1.0,
+          "train": 1.0,
+          "validation": 1.0
+        },
+        "circuit_executions": 12520,
+        "epochs": 40,
+        "final_cost": 0.07047205277423842,
+        "history": [
+          1.672975172236316,
+          1.601596542660545,
+          1.5154786893987229,
+          1.4186448337260964,
+          1.3155774503816366,
+          1.2077078221019664,
+          1.0952707051819466,
+          0.9813594514974904,
+          0.8709471979138433,
+          0.7699028206852915,
+          0.6830781146451524,
+          0.6125567648685907,
+          0.5568042718007032,
+          0.5110830790929308,
+          0.46931305170129417,
+          0.426494961837121,
+          0.3802639238425421,
+          0.33101277850109906,
+          0.2809936848457522,
+          0.23309593172055335,
+          0.18983911876624107,
+          0.15283447355033894,
+          0.12272005255765378,
+          0.09941297480572131,
+          0.08245428899059933,
+          0.07125452299063957,
+          0.06515985595713698,
+          0.06338943394901339,
+          0.06496695173605664,
+          0.06874285149454452,
+          0.07351325060954624,
+          0.07817605093118854,
+          0.08186631373272722,
+          0.08404411146478885,
+          0.08452629705194503,
+          0.08345931433479963,
+          0.08123750085679754,
+          0.07838247486959271,
+          0.0754089979432046,
+          0.07270754512663123
+        ],
+        "parameter_count": 6,
+        "runtime_seconds": 6.424353957998392,
+        "seed": 11,
+        "weights": [
+          [
+            1.216727626169317,
+            1.0610333451152962
+          ],
+          [
+            -1.6869066678431088,
+            -1.8969256207100196
+          ],
+          [
+            1.3910249543415483,
+            -0.10547683860668505
+          ]
+        ]
+      },
+      {
+        "accuracies": {
+          "test": 1.0,
+          "train": 1.0,
+          "validation": 1.0
+        },
+        "circuit_executions": 12520,
+        "epochs": 40,
+        "final_cost": 0.061657268411908356,
+        "history": [
+          1.6332178417447658,
+          1.5403383130179122,
+          1.4302842640744193,
+          1.3057425387359993,
+          1.1709641925907304,
+          1.0315067243645055,
+          0.8935410225517689,
+          0.762892066277525,
+          0.6440950991697203,
+          0.5397665573395368,
+          0.4504712814606533,
+          0.3750728667675851,
+          0.3114305630860909,
+          0.2572754395615047,
+          0.21097455981693156,
+          0.17178304240242526,
+          0.1395045617689149,
+          0.11394379202858863,
+          0.09456671916016901,
+          0.08050621275017021,
+          0.07080224036173406,
+          0.06466365837259537,
+          0.06158179373003032,
+          0.06125741975587521,
+          0.06341436825722173,
+          0.06760998201585738,
+          0.073139127758838,
+          0.0790859444513503,
+          0.08450293812115299,
+          0.088622655149179,
+          0.09099858705272602,
+          0.09153272664278439,
+          0.09041012031178418,
+          0.08798509211847128,
+          0.08466207008257622,
+          0.08080545471725196,
+          0.0766997572439344,
+          0.07255902823017264,
+          0.06856087864485229,
+          0.0648732852790818
+        ],
+        "parameter_count": 6,
+        "runtime_seconds": 6.393163999997341,
+        "seed": 29,
+        "weights": [
+          [
+            1.3274729461143822,
+            1.0759389105144792
+          ],
+          [
+            -1.767907732313665,
+            -1.7463052243386104
+          ],
+          [
+            1.4205396928678027,
+            -0.04514221626541962
+          ]
+        ]
+      }
+    ]
+  }
+}

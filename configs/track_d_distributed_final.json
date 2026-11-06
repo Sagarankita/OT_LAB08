@@ -1,0 +1,20 @@
+{
+  "run_kind": "final",
+  "seeds": [3, 11, 29],
+  "train_size": 600,
+  "test_size": 300,
+  "dimensions": 6,
+  "client_sizes": [90, 120, 150, 240],
+  "fedavg_learning_rate": 0.2,
+  "same_compute_local_steps": [1, 5, 10],
+  "same_compute_total_steps": 30,
+  "communication_rounds": 10,
+  "communication_local_steps": [1, 5, 10],
+  "multitask_train_size": 500,
+  "multitask_test_size": 250,
+  "multitask_hidden": 8,
+  "multitask_epochs": 120,
+  "multitask_learning_rate": 0.03,
+  "gradnorm_learning_rate": 0.025,
+  "gradnorm_alpha": 1.5
+}

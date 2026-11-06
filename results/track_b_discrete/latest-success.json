@@ -1,0 +1,12 @@
+{
+  "run_directory": "results/track_b_discrete/20261027T133954.808190Z",
+  "run_kind": "final",
+  "instances": 5,
+  "item_count": 18,
+  "repetitions_per_instance_and_method": 5,
+  "raw_records": 100,
+  "independent_verification_checks": 19,
+  "independent_verification_passed": true,
+  "frozen_qubo_sha256": "69b36ca819b8dd40718db89d63c01391333716d144b62130dc3bd372cf276dad"
+}
+

@@ -1,0 +1,21 @@
+{
+  "experiment": "track_f_compiler",
+  "run_kind": "debug",
+  "seeds": [301],
+  "repetitions": 2,
+  "warmup_repetitions": 1,
+  "input_size": 8,
+  "timeout_seconds": 60,
+  "units": {
+    "compile_seconds": "seconds",
+    "execution_seconds": "seconds",
+    "instruction_count": "instructions",
+    "bytecode_size": "bytes"
+  },
+  "solver_settings": {
+    "pipelines": ["unoptimized", "fixed_order", "dp_order"],
+    "pass_costs": {"constant_folding": 1, "constant_propagation": 1, "dead_code_elimination": 1, "common_subexpression_elimination": 1},
+    "pass_budget": 4,
+    "generated_assignments": 8
+  }
+}

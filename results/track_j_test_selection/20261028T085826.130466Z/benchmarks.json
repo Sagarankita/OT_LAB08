@@ -1,0 +1,42 @@
+{
+  "full": {
+    "mean_seconds": 7.090727791666571,
+    "measurement_reused_from": "full",
+    "samples_seconds": [
+      7.235317166999721,
+      7.029874875000132,
+      7.00699133299986
+    ],
+    "stdev_seconds": 0.12573973006986466
+  },
+  "greedy": {
+    "mean_seconds": 5.509894611000163,
+    "measurement_reused_from": "greedy",
+    "samples_seconds": [
+      5.523644500000046,
+      5.519863625000198,
+      5.486175708000246
+    ],
+    "stdev_seconds": 0.020627979144374
+  },
+  "ilp": {
+    "mean_seconds": 5.504279764333508,
+    "measurement_reused_from": "ilp",
+    "samples_seconds": [
+      5.424514000000272,
+      5.5454544590002115,
+      5.542870834000041
+    ],
+    "stdev_seconds": 0.06909125595387891
+  },
+  "naive": {
+    "mean_seconds": 5.675183055666669,
+    "measurement_reused_from": "naive",
+    "samples_seconds": [
+      5.700253874999817,
+      5.659371624999949,
+      5.665923667000243
+    ],
+    "stdev_seconds": 0.021957727571856885
+  }
+}

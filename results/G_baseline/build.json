@@ -1,0 +1,16 @@
+{
+  "command": [
+    "make",
+    "-j4",
+    "TOOLPREFIX=riscv64-elf-",
+    "CPUS=1",
+    "kernel/kernel",
+    "fs.img"
+  ],
+  "cwd": "vendor/xv6-riscv-baseline",
+  "returncode": 2,
+  "elapsed_seconds": 0.8870077920000767,
+  "result": "failed",
+  "reason": "Unquoted upstream DETFLAGS splits project path at spaces",
+  "resolution": "run_xv6_baseline.py supplies a shell-quoted DETFLAGS override; no upstream edits"
+}

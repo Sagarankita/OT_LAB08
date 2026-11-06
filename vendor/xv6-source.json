@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mit-pdos/xv6-riscv",
+  "commit": "e93dabeb98431235c6e1a101cb96c73c923fdbc4",
+  "commit_url": "https://github.com/mit-pdos/xv6-riscv/commit/e93dabeb98431235c6e1a101cb96c73c923fdbc4",
+  "commit_date": "2026-10-26T21:16:16Z",
+  "downloaded_at_utc": "2026-10-27T13:23:38.317491+00:00",
+  "archive_url": "https://codeload.github.com/mit-pdos/xv6-riscv/tar.gz/e93dabeb98431235c6e1a101cb96c73c923fdbc4",
+  "archive_sha256": "727e33099248547ee28a4ada453935851ff6b9d01f92656181cb621636640d85",
+  "source_directory": "vendor/xv6-riscv-baseline",
+  "license_file": "vendor/xv6-riscv-baseline/LICENSE",
+  "license_note": "MIT-style license; authoritative text retained in LICENSE",
+  "license_sha256": "677302f30c9882c1f81b9be8ceda6efd4edff5576b9e02963b6114cf70c3162c",
+  "acquisition": "GitHub API and immutable source archive; no Git commands"
+}

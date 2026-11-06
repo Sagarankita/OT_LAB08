@@ -1,0 +1,17 @@
+{
+  "problem": "fixed-cardinality project selection with pairwise complementarity",
+  "variable_definition": "x_i=1 when project i is selected, otherwise 0",
+  "objective": "maximize sum_i benefit_i*x_i + sum_{i<j} synergy_ij*x_i*x_j",
+  "constraint": "sum_i x_i = 2",
+  "benefits": [8, 7, 6, 5, 4],
+  "synergies": [
+    [0, 3, 1, 0, 0],
+    [3, 0, 2, 1, 0],
+    [1, 2, 0, 1, 1],
+    [0, 1, 1, 0, 0],
+    [0, 0, 1, 0, 0]
+  ],
+  "cardinality": 2,
+  "insufficient_penalty": 1
+}
+
