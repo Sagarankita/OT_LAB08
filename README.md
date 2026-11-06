@@ -2,7 +2,7 @@
 
 ## Execution plan: 2–3 days, one step at a time
 
-**Current state: Steps 00–14 complete. All Tracks A–J have verified experiments, every selected verifier passes, and the detailed A–J technical report with all ten final answers is available as [Markdown](docs/REPORT.md) and a [submission-ready PDF](output/pdf/Assignment_8_Optimization_Technical_Report.pdf). The user explicitly declined Prompt 15; Git/publication and the genuine second-AI-tool comparison remain outstanding. See [docs/STATUS.md](docs/STATUS.md).**
+**Current state: Steps 00–14 complete. All Tracks A–J have verified experiments, every selected verifier passes, and the detailed A–J technical report with all ten final answers is available as [Markdown](docs/REPORT.md) and a [submission-ready PDF](output/pdf/Assignment_8_Optimization_Technical_Report.pdf). The repository is published at [Sagarankita/OT_LAB08](https://github.com/Sagarankita/OT_LAB08). The user explicitly declined Prompt 15; the genuine second-AI-tool comparison remains outstanding. See [docs/STATUS.md](docs/STATUS.md).**
 
 This repository will contain ten focused optimization experiments (Tracks A–J), a technical report, reproducible results, and documented AI assistance. The target is three intensive working days; two days is a stretch target. Installation problems, xv6 debugging, and missing course material may require more time. Completion is determined by evidence, not the schedule.
 
@@ -107,7 +107,7 @@ Day 1: steps 00–05. Day 2: steps 06–10. Day 3: steps 11–15 and any unfinis
 
 **Actions:** Inspect available Python, Git, compilers, QEMU, RISC-V toolchain, storage and CPU resources. Select one supported Python environment and a small dependency set: NumPy/SciPy, plotting, pytest, an ILP interface, PyTorch, and one quantum framework. Verify current official installation instructions when installing. Prefer CPU-only experiments. Record versions and actual commands; do not assume this machine has working dependencies.
 
-Create the status record, environment notes, AI register, prompt-log format and a provisional Chapter 6 coverage matrix. Preserve this planning interaction as AI assistance. Initialize Git if needed, with AI-assisted commit labels such as `[AI:Codex]`; distinguish subsequent manual work. Never guess the model version if unavailable—record it as unavailable.
+Create the status record, environment notes, AI register, prompt-log format and a provisional Chapter 6 coverage matrix. Preserve this planning interaction as AI assistance. Initialize Git if needed, with AI-assisted commit labels such as `[AI-assisted]`; distinguish subsequent manual work. Never guess the model version if unavailable—record it as unavailable.
 
 **Done when:** Environment smoke tests run, installation blockers are recorded, every assignment requirement has a planned experiment, and AI provenance is being captured. Request class notes without blocking independent implementation.
 
@@ -304,13 +304,13 @@ Update this with actual implementation sessions. Do not represent planning as co
 - [x] Raw data, plots, settings, seeds, dependency versions and execution commands are preserved.
 - [ ] README AI register, per-track prompt logs, real failure cases and real two-tool comparison are complete.
 - [x] Report answers all ten final questions and links all A–J artifacts.
-- [ ] Public GitHub repository, report and demonstration are ready and verified.
+- [x] Public GitHub repository and report are ready and verified. Prompt 15 (demonstration) was explicitly declined.
 
-**Next action: add the genuine second-AI-tool evidence, then perform the user's Git commits and public GitHub publication. Prompt 15 was explicitly declined.**
+**Next action: add genuine second-AI-tool evidence if required for submission. Prompt 15 was explicitly declined.**
 
 ## Local setup and user preferences (2026-10-27)
 
-The user handles all Git work and publishing. Do not initialize, stage, commit or push; earlier Git instructions in this plan are superseded. Commit references remain pending until supplied by the user. This folder currently inherits a Desktop repository, which must not be used for staging project work.
+This was the original local-only instruction. On 6 November 2026, the user explicitly authorized repository cleanup and publication. The project was isolated in its own Git repository and published to `Sagarankita/OT_LAB08`; historical prompt records retain their original at-the-time wording.
 
 Use Python 3.11 in the local environment:
 

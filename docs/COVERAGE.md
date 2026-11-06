@@ -35,5 +35,5 @@ Audited 6 November 2026. Every method explicitly named in the assignment has a d
 | Non-trivial codebase; profiling; named optimization; correctness/cost | J | 09 | Pinned 4,728-line more-itertools, 671 tests, naive/greedy/optimal ILP, coverage replay, mutations and 22-check audit | DEMONSTRATED |
 | Repeated measurements; raw data/plots; reproducibility | All | 02/14 | Shared schema, per-track raw artifacts, 68 tests, dependency audit and all selected verifiers rerun | DEMONSTRATED |
 | Every taught method; exact Chapter 6 reconciliation | All | 00/14 | Every assignment-listed method is demonstrated; additional class-note-only methods cannot be checked because notes are unavailable | UNCONFIRMED |
-| AI register; prompts/exports; traceability; 3 genuine failures; 2 tools | All | 00–15 | Codex register, prompt excerpts and 11 failures exist; second tool, full exports and commit links pending | PARTIAL |
-| Public repository; report A–J; demo; ten final questions | All | 14/15 | Detailed A–J report and ten answers complete; demo declined and public repository pending | PARTIAL |
+| AI register; prompts/exports; traceability; 3 genuine failures; 2 tools | All | 00–15 | Codex register, prompt excerpts, 11 failures and final snapshot commit exist; second tool, full exports and per-step commit links remain unavailable | PARTIAL |
+| Public repository; report A–J; demo; ten final questions | All | 14/15 | Public repository, detailed A–J report and ten answers complete; demo explicitly declined | PARTIAL |

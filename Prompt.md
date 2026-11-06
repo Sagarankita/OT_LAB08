@@ -4,7 +4,7 @@ Created: 2026-10-27. These are instructions for future execution, not evidence t
 
 ## Current user instruction
 
-The user handles Git and publication. Perform local work only: do not initialize, stage, commit, push or publish. This overrides Git actions in the original prompts. Record commit references as pending user Git work. Steps 00–14 have been executed. The user explicitly declined Prompt 15; see docs/STATUS.md for remaining external submission gaps.
+The original execution period used local-only Git instructions. On 6 November 2026, the user explicitly superseded that instruction and authorized cleanup and publication to `https://github.com/Sagarankita/OT_LAB08`. Historical prompt logs preserve their original wording. Steps 00–14 have been executed. The user explicitly declined Prompt 15; see docs/STATUS.md for remaining submission gaps.
 
 ## How to proceed
 
@@ -51,7 +51,7 @@ Execute step 00: Requirements, provenance, and environment.
 
 Actions: Inspect available Python, Git, compilers, QEMU, RISC-V toolchain, storage and CPU resources. Select one supported Python environment and a small dependency set: NumPy/SciPy, plotting, pytest, an ILP interface, PyTorch, and one quantum framework. Verify current official installation instructions when installing. Prefer CPU-only experiments. Record versions and actual commands; do not assume this machine has working dependencies.
 
-Create the status record, environment notes, AI register, prompt-log format and a provisional Chapter 6 coverage matrix. Preserve this planning interaction as AI assistance. Initialize Git if needed, with AI-assisted commit labels such as `[AI:Codex]`; distinguish subsequent manual work. Never guess the model version if unavailable—record it as unavailable.
+Create the status record, environment notes, AI register, prompt-log format and a provisional Chapter 6 coverage matrix. Preserve this planning interaction as AI assistance. Initialize Git if needed, with AI-assisted commit labels such as `[AI-assisted]`; distinguish subsequent manual work. Never guess the model version if unavailable—record it as unavailable.
 
 Acceptance checks: Environment smoke tests run, installation blockers are recorded, every assignment requirement has a planned experiment, and AI provenance is being captured. Request class notes without blocking independent implementation.
 

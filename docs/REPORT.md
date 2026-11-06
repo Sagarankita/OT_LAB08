@@ -7,7 +7,7 @@
 **Roll number:** 241071063  
 **Report date:** 6 November 2026  
 **Implementation period:** 26–29 October 2026  
-**Repository status:** Local verified repository; public GitHub URL pending student publication
+**Repository:** [Sagarankita/OT_LAB08](https://github.com/Sagarankita/OT_LAB08) (public, verified snapshot `9757572`)
 
 ## Abstract
 
@@ -17,7 +17,7 @@ The results show that the best method depends strongly on variable type, scale, 
 
 The quantum results are deliberately cautious. QAOA, VQE, QNN, QFT, QPE, Grover, compiled Shor order finding, and a gate-model annealing evolution were executed on local simulators. Grover used fewer oracle queries than linear search but was much slower in wall-clock simulation. Quantum and classical classifiers both achieved 100% accuracy on a small matched dataset, while the quantum classifier required thousands of circuit evaluations and substantially more time. These are functional demonstrations, not evidence of practical quantum advantage.
 
-All 68 project tests pass. On 6 November 2026, the environment smoke checks, dependency checks, and all selected per-track independent verifiers were rerun successfully. Eleven genuine AI-generated failures were preserved with their corrections. Remaining submission disclosures are the unavailable exact Chapter 6 class notes, the still-missing genuine second-AI-tool comparison, unavailable full chat exports/screenshots, pending Git commit links, and pending public GitHub publication.
+All 68 project tests pass. On 6 November 2026, the environment smoke checks, dependency checks, and all selected per-track independent verifiers were rerun successfully. Eleven genuine AI-generated failures were preserved with their corrections. The cleaned repository was published at `https://github.com/Sagarankita/OT_LAB08`. Remaining submission disclosures are the unavailable exact Chapter 6 class notes, the still-missing genuine second-AI-tool comparison, unavailable full chat exports/screenshots, and unavailable historical per-step commit links because Git was initialized only at final handoff.
 
 ## 1. Experimental method
 
@@ -467,7 +467,7 @@ Codex was used for planning, code generation, debugging, tests, verification, an
 
 Eleven genuine AI-generated issues are documented in [AI_FAILURES.md](AI_FAILURES.md). Examples include an xv6 API mismatch, console framing races, a no-incumbent MILP, unstable pytest root discovery, timing-dependent coverage, an interactive plotting backend, unsupported multiprocessing IPC, and queued quantum Hamiltonian arithmetic that produced non-normalized states. These failures demonstrate why generated code required compilation, invariants, independent implementations, and full regression tests.
 
-The assignment's required comparison with a second genuine AI tool is **not complete**. [AI_TOOL_COMPARISON.md](AI_TOOL_COMPARISON.md) truthfully records that only Codex evidence is available. A second tool's output, model/version, original response/export, prompt iterations, correctness, and observed timing must be added by the student; this report does not fabricate them. Git commit links are also pending because the student retained responsibility for Git and publication.
+The assignment's required comparison with a second genuine AI tool is **not complete**. [AI_TOOL_COMPARISON.md](AI_TOOL_COMPARISON.md) truthfully records that only Codex evidence is available. A second tool's output, model/version, original response/export, prompt iterations, correctness, and observed timing must be added by the student; this report does not fabricate them. The first complete verified repository snapshot is commit `9757572`; historical per-step commit links do not exist because Git was initialized only at final handoff.
 
 ## 15. Answers to the ten final questions
 

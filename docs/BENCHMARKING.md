@@ -22,7 +22,7 @@ An expected failure probe exists only to verify this lifecycle. It is not report
 - Plot files: generated from the saved observations.
 - `verification.json`: independent reload and consistency checks, created by a separate verifier.
 
-Git revision is recorded as `pending user Git work` because the user handles Git and instructed the assistant not to run Git commands. Later user commits should update this provenance without rewriting measured values.
+Historical result metadata records `pending user Git work` because the experiments predated repository initialization. The verified project snapshot was later committed as `9757572` and published at `https://github.com/Sagarankita/OT_LAB08`; measured artifacts were not rewritten retroactively.
 
 ## Reproduce Prompt 02
 

@@ -6,6 +6,7 @@ Updated: 2026-11-06 (Asia/Kolkata).
 
 - Steps 00–14: DONE — setup, infrastructure, focused experiments for Tracks A–J, final reproducibility audit and detailed report are complete.
 - Step 15: NOT REQUESTED. The user explicitly said Prompt 15 is not required. No demonstration artifact or publication claim was created.
+- GitHub publication: DONE — the cleaned project repository is public at `https://github.com/Sagarankita/OT_LAB08`.
 
 ## Step 14 evidence
 
@@ -18,7 +19,7 @@ Updated: 2026-11-06 (Asia/Kolkata).
 - Re-ran every selected verifier for infrastructure, Tracks A–J, xv6 baseline and xv6 stride. Every verifier passed.
 - xv6 evidence still contains all 74 expected upstream tests and a clean patch dry run.
 - Report claims trace to the selected result directories listed in its reproducibility map.
-- PDF structural validation found every required A–J/final-answer section, no encryption, and SHA-256 `d0a7d7404c5053cd5bc4299beb8c52c62e045d73160f7ad8171d4d68bd45827e`. The cover identifies Ankita Sagar, roll number 241071063.
+- PDF structural validation found every required A–J/final-answer section, no encryption, and SHA-256 `7444b31c9dd80a84353949ddd703d255d6a09be05cb440df37ef7c30af248c11`. The cover identifies Ankita Sagar, roll number 241071063.
 - Updated coverage, README checklist, AI register and prompt provenance without converting external gaps into completed work.
 
 ## Verification commands
@@ -32,7 +33,7 @@ Updated: 2026-11-06 (Asia/Kolkata).
 
 ## Persistent constraints and outstanding input
 
-- User handles all Git and publication. Do not initialize, stage, commit or push; commit references remain pending.
+- The original local-only Git instruction was superseded by the user's explicit 6 November 2026 publication request. Historical prompt logs remain unchanged as at-the-time records.
 - Exact Chapter 6 notes are unavailable; reconcile provisional coverage later.
 - Genuine second-AI-tool comparison remains pending; do not simulate another tool.
 - Eleven genuine AI-generated issues are recorded. Prompt 13 added the queued-Hamiltonian annealing failure; normalization checks caught it.
@@ -44,4 +45,4 @@ Updated: 2026-11-06 (Asia/Kolkata).
 
 ## Exact next action
 
-No further numbered prompt is requested. The student must add genuine evidence from a second AI tool and perform Git commits/publication. Add the exact Chapter 6 notes if available. Do not claim the missing demo, full chat exports, second xv6 feature, commit traceability, or public GitHub URL as complete.
+No further numbered prompt is requested. The student must add genuine evidence from a second AI tool and reconcile the exact Chapter 6 notes if available. Do not claim the missing demo, full chat exports, second xv6 feature, or per-step commit traceability as complete.

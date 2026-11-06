@@ -19,4 +19,4 @@
 | Codex | Exact model identifier unavailable | 2026-10-29 | I / Prompt 13 | Direct quantum circuits, compiled Shor, unitary annealing, QML/classical comparison, debugging and audit |
 | Codex | Exact model identifier unavailable | 2026-11-06 | Shared / Prompt 14 | Full reproducibility audit, A–J technical report and ten final answers |
 
-Tracks A–J now have verified focused optimization implementations. User will handle Git and publication; commit references remain pending. Original full chat exports/screenshots have not been saved by the assistant. Local logs contain genuine prompt text and labelled excerpts, not full exports.
+Tracks A–J now have verified focused optimization implementations. The first complete verified snapshot is commit `9757572` in `https://github.com/Sagarankita/OT_LAB08`. Because Git was initialized at final handoff, historical per-step commit links do not exist and are not fabricated. Original full chat exports/screenshots have not been saved by the assistant. Local logs contain genuine prompt text and labelled excerpts, not full exports.

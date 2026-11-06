@@ -2,7 +2,7 @@
 
 At least three genuine failures are required before submission. Actual cases are recorded below; setup restrictions are not code failures. Coverage is not yet complete, and the student should distinguish invocation issues from substantive implementation errors.
 
-For each actual case record: track/date, original output, failing check, cause, corrected code, verification, commit reference (pending user Git work), and lesson.
+For each actual case record: track/date, original output, failing check, cause, corrected code, verification, commit reference, and lesson. Git was initialized only at final handoff, so these historical fixes have no honest per-step commit links; the first complete verified snapshot is commit `9757572`.
 
 ## Setup issue 01 — build command mishandled spaces (2026-10-27)
 
